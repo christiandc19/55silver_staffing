@@ -68,13 +68,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/respiratory" className="nav-links" onClick={closeMenu}>
+              <Link to="/" className="nav-links" onClick={closeMenu}>
                 Respiratory
               </Link>
             </li>
 
             <li>
-              <Link to="/correctional-health" className="nav-links" onClick={closeMenu}>
+              <Link to="/" className="nav-links" onClick={closeMenu}>
                 Correctional Health
               </Link>
             </li>

@@ -4,9 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
 import Home from './routes/HomePage';
 import JobSearch from './routes/JobSearchPage';
-import Doctors from './components/Doctors';
 import About from './routes/AboutPage';
-import Telehealth from './components/Telehealth';
 import JobDetail from './routes/JobDetailsPage';
 import Contact from './routes/ContactPage';
 
@@ -27,10 +25,8 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/job-search" element={<JobSearch />} />
-        <Route exact path="/doctors" element={<Doctors />} />
         <Route exact path="/about-us" element={<About />} />
         <Route exact path="/contact-us" element={<Contact />} />
-        <Route exact path="/telehealth" element={<Telehealth />} />
         <Route exact path="/job/:id" element={<JobDetail />} />
         
         {/* Specialties  */}

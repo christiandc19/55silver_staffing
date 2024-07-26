@@ -15,9 +15,12 @@ const Footer = () => {
 
           <div className="top">
             <div className="logo-footer">
-                <img src={logo} alt="Contra Costa Rehab Logo" loading="lazy"/>
+              <div className="footer-logo">
+                <img src={logo} alt="55 Silver Logo" loading="lazy"/>
+              </div>
+                
                 <h2>HAVE SOME QUESTIONS?</h2>
-                <p>Our Addiction and Recovery Support team is available to assist you.</p>
+                <p>At 55 Silver, we are here to assist you with all your healthcare staffing needs. Whether you require temporary, permanent, or specialized staffing solutions, our dedicated team is ready to provide the best professionals for your facility.</p>
                 <p>(323-) 792-0502</p>
             </div>
             <div>
@@ -34,8 +37,8 @@ const Footer = () => {
             <div className="footerFlexItem">
                 <h1>COMPANY</h1>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/mission">
-                    <p>Our Mission</p>
+                  <Link to="/">
+                    <p>Home</p>
                   </Link>
                 </LinkRoll>
 
@@ -46,80 +49,54 @@ const Footer = () => {
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="contact">
+                  <Link to="contact-us">
                     <p>Contact Us</p>
                   </Link>
                 </LinkRoll>
             </div>
 
             <div className="footerFlexItem">
-                <h1>Navigation</h1>
+                <h1>Specialties</h1>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/">
-                    <p>Home</p>
+                  <Link to="/nursing">
+                    <p>Nursing</p>
                   </Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/insurance">
-                    <p>Insurance</p>
+                  <Link to="/behavioral-health">
+                    <p>Behavioral health</p>
                   </Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/jobs">
-                    <p>Job Assistance</p>
+                  <Link to="/allied-health">
+                    <p>Allied Health</p>
                   </Link>
                 </LinkRoll>
             </div>
 
             <div className="footerFlexItem">
-                <h1>PROGRAMS</h1>
+                <h1>Services</h1>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/partial-hospitalization-program">
-                    <p>Partial Hospitalization Program</p>
+                  <Link to="/staffing-solutions">
+                    <p>Staffing Solutions</p>
                   </Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/intensive-outpatient-program">
-                    <p>Intensive Outpatient Program</p>
+                  <Link to="/workforce-management">
+                    <p>Workforce Management</p>
                   </Link>
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/outpatient-program">
-                    <p>Outpatient Program</p>
+                  <Link to="/job-search">
+                    <p>Job Search</p>
                   </Link>
                 </LinkRoll>
             </div>
 
-            <div className="footerFlexItem">
-                <h1>SERVICES</h1>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/case-management">
-                    <p>Case Management</p>
-                  </Link>
-                </LinkRoll>
- 
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/crisis-intervention">
-                    <p>Crisis Intervention</p>
-                  </Link>
-                </LinkRoll>
-
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/crisis-intervention">
-                    <p>Crisis Intervention</p>
-                  </Link>
-                </LinkRoll>
-
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/family-therapy">
-                    <p>Family Therapy</p>
-                  </Link>
-                </LinkRoll>
-            </div>
 
           </div>
 

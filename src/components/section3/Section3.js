@@ -20,7 +20,8 @@ const Section3 = () => {
         <div className="section3-content container">
 
           <div className="section3Header container">
-            <h1>Our strength is connecting talented healthcare professionals with employers nationwide.</h1>
+            <h1>HEALTHCARE EXPERTISE</h1>
+            <h2>Our strength is connecting talented healthcare professionals with employers nationwide.</h2>
           </div>
 
 

@@ -13,9 +13,21 @@
     justify-content: space-between;
 }
 
-.footer .top .logo-footer {
+.footer-logo {
     width: 300px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer .top .logo-footer {
+    width: 50%;
     height: auto;
+}
+
+.footer .top .logo-footer img {
+    width: 50%;
 }
 
 .footerFlex {
@@ -50,7 +62,7 @@
     font-family: 'El Messiri', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-    color: #0213a7;
+    color: #ffd901;
     text-align: center;
 }
 
@@ -146,6 +158,11 @@
 @media screen and (max-width: 600px) {
     .footerFlexItem {
         width: 100%;
+    }
+
+    .footer .top .logo-footer {
+        width: 100%;
+        height: auto;
     }
 }
 

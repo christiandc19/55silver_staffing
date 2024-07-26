@@ -43,7 +43,7 @@ const HeroPage = () => {
       <hr/>
       <p>At 55 Silver Healthcare Staffing, we specialize in connecting healthcare facilities with highly qualified professionals, ensuring optimal patient care and operational efficiency. Our comprehensive staffing solutions cover a wide range of medical and allied health disciplines, tailored to meet the unique needs of each client.</p>
       <div className='heroIcons'>
-      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to='/job-search'>
                 <div className='heroBtn '>
                     <button>Search Jobs</button>
@@ -56,7 +56,7 @@ const HeroPage = () => {
                     <FiPhone />
                 </div></a>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to='/contact'>
+                    <Link to='/contact-us'>
                 <div className='heroIcon heroIconPhone icon-container'>
                     <TfiEmail />
                 </div>
