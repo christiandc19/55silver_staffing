@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.about-container {
+    padding: 5rem 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-left {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-content-left img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.about-content-right {
+    width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+
+.about-content-right h2 {
+    font-size: 3rem;
+}
+
+.about-content-right h1 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1rem;
+    letter-spacing: 2px; 
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+.about-content-right p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+
+
+@media screen and (max-width:1250px)  {
+
+
+    .about-content-right h1, .about-content-right h2 {
+        text-align: center;
+    }
+
+    .about-content-right h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+
+    .about-content {
+        flex-wrap: wrap;
+    }
+
+    .about-content-left {
+        width: 100vw;
+    }
+    .about-content-left img {
+        padding: 2rem;
+    }
+}

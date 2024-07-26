@@ -1,0 +1,112 @@
+.jobDetail {
+    padding: 3rem 1rem;
+    margin: auto;
+    display: flex;
+}
+
+hr {
+    border-top: 1px dashed var(--primary-color);
+    margin: .5rem 0;
+  }
+
+.jobDetailFlex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.jobDetailRight {
+  width: 60%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.jobDetailLeft {
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.jobDetailRight img {
+  width: 100%;
+}
+
+.jobDetailHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchIcon {
+  margin: auto 0;
+}
+
+.jobDetail ul {
+    padding: 0 1rem
+    ;
+}
+  .jobDetail ul li {
+    list-style-type: disc;
+}
+
+  .jobDetail h3 {
+    padding: .5rem 0;
+    font-weight: normal;
+    color: var(--primary-color);
+  }
+
+  .JobDetailBtn {
+    margin-top: 1rem;
+  }
+
+  .toggle-element {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+
+  .toggle-element h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 2rem;
+    padding: .2rem;
+  }
+
+  .applicationFormHeader {
+    padding: .5rem 0;
+  }
+
+  .form-group label {
+    text-align: left;
+    width:150px;
+    margin: auto 0;
+  }
+
+  .form-group input {
+    width: 50%;
+    padding: .5rem;
+    margin: .1rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+  }
+
+  .toggle-element button {
+    margin: 1rem 0;
+  }
+
+
+  @media screen and (max-width:940px) {
+    .jobDetailFlex {
+      flex-wrap: wrap;
+    }
+    
+    .jobDetailRight {
+      width: 100%;
+      margin: auto;
+      padding: 0 1rem;
+  }
+}

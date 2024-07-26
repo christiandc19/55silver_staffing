@@ -1,0 +1,59 @@
+.sectionFive {
+  background-color: #04768a8e; /* Change color as needed */
+  height: auto;
+  padding: 2rem 0;
+  }
+  
+.sectionFiveContent {
+    width: 100%;
+
+}
+
+.sectionFiveContent h1 {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: center;
+  padding: .5rem 0;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.sectionFiveContent h2 {
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.sectionFiveBtn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .sectionFiveButton1 button {
+    background-color: white;
+    color: var(--primary-color);
+  }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .sectionFiveContent {
+    width: 100%;
+  }
+  .sectionFiveBtn {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+

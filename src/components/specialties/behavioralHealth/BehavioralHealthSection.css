@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.behavioralHealthSection {
+  padding: 3rem 0;
+}
+
+.behavioralHealthSectionHeader {
+  padding: 0 1rem;
+}
+.behavioralHealthSectionContent {
+  padding: 2rem 1rem;
+}
+
+.behavioralHealthSectionHeader p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.behavioralHealthSectionHeader h1 {
+  color: rgba(23, 102, 121, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.behavioralHealthSectionFlex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.behavioralHealthSectionLeft {
+  width: 50%;
+  margin: auto 0;
+}
+
+.behavioralHealthSectionRight {
+  width: 500px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.behavioralHealthSectionRight img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.behavioralHealthSection .behavioralHealthSectionLeft h1 {
+  font-size: 1rem;
+  color: rgba(23, 102, 121, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+}
+
+.behavioralHealthSectionLeft ul {
+  list-style-type: disc;
+  padding: 0 1rem;
+}
+
+.behavioralHealthSectionFooter {
+  padding: 1rem;
+}
+
+.behavioralHealthSectionFooter h1 {
+  font-size: 1rem;
+  color: rgba(23, 102, 121, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:900px) {
+  .behavioralHealthSectionFlex {
+    flex-wrap: wrap-reverse;
+  }
+
+  .behavioralHealthSectionLeft {
+    width: 100%;
+  }
+  
+  .behavioralHealthSectionRight {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,105 @@
+/* src/components/JobSearch.css */
+.jobSearch {
+    padding: 1rem;
+  }
+  
+  .jobSearchHeader{
+    padding: 1rem 0;
+  }
+
+  .jobSearchHeader h1 {
+    font-size: 1.3rem;
+    color: rgba(23, 102, 121, 0.877);
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+
+  .jobSearchHeader h2 {
+    color: rgb(4, 66, 117);
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 49%;
+  }
+
+  
+  .job-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+  }
+
+  .job-list li {
+    width: 32%;
+  }
+  
+  .job-item {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-item:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .job-description {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .job-location {
+    margin: 0 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-salary {
+    margin: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  .job-location {
+    font-weight: normal;
+  }
+
+  .job-salary {
+    font-weight: normal;
+    color: rgb(68, 66, 66);
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .job-list li {
+      width: 40%;
+    }
+  }

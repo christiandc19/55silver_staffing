@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.workforceManagement {
+    width: 100%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.322);
+    position: relative;
+  }
+  
+  .workforceManagement:before {
+    content: '';
+    position: absolute;
+    background: url('../../../assets/specialties_nursing.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.workforceManagement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workforceManagementContent {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    padding: 1rem;
+    width: 50%;
+}
+
+.workforceManagement h1 {
+    font-size: 3rem;
+    color: rgba(230, 238, 240, 0.877);
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    padding: .5rem 0;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.workforceManagement p {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.nursingBtn {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.workforceManagement h1 {
+    font-size: 2rem;
+}
+
+.workforceManagement {
+    height: 100vh;
+  }
+
+  .workforceManagementContent {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:700px) {
+    .workforceManagement {
+        height: 100vh;
+      }
+
+      .workforceManagement h1 {
+        font-size: 2rem;
+    }
+}
