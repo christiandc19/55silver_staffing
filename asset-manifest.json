@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.14c464c3.css",
+    "main.css": "/55silver_staffing/static/css/main.9f1c0e36.css",
     "main.js": "/55silver_staffing/static/js/main.55bfa92c.js",
     "static/media/menu-bg-contact.jpg": "/55silver_staffing/static/media/menu-bg-contact.c2e16482f83e3957ca6e.jpg",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
@@ -22,16 +22,17 @@
     "static/media/program_case_management.webp": "/55silver_staffing/static/media/program_case_management.5bc407e4ba90e65222ec.webp",
     "static/media/specialties_behavioral_health.webp": "/55silver_staffing/static/media/specialties_behavioral_health.7005cfb781ffb06fa058.webp",
     "static/media/nursing.webp": "/55silver_staffing/static/media/nursing.593772108c390f0a1c0f.webp",
+    "static/media/section-bg2.webp": "/55silver_staffing/static/media/section-bg2.c295f6a1753a7c41d069.webp",
     "static/media/program_crisis_intervention.webp": "/55silver_staffing/static/media/program_crisis_intervention.cce765fad6be8ebe99c3.webp",
     "static/media/behavioral_health.webp": "/55silver_staffing/static/media/behavioral_health.c2c02671a06a15bde298.webp",
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.14c464c3.css.map": "/55silver_staffing/static/css/main.14c464c3.css.map",
+    "main.9f1c0e36.css.map": "/55silver_staffing/static/css/main.9f1c0e36.css.map",
     "main.55bfa92c.js.map": "/55silver_staffing/static/js/main.55bfa92c.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c464c3.css",
+    "static/css/main.9f1c0e36.css",
     "static/js/main.55bfa92c.js"
   ]
 }
