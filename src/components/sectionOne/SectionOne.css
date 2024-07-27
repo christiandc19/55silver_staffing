@@ -22,13 +22,12 @@
     display: flex;
     height: auto;
     justify-content: center;
-    gap: 1rem;
 }
 
 .hero-text {
     width: 100%;
     margin: 20rem 0 0 0 ;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .hero-text h1 {
@@ -54,7 +53,7 @@
 .image-slider {
     width: 100%;
     position: relative;
-    height: 80dvh;
+    height: 90dvh;
 }
 
 .image-slider img {
