@@ -27,7 +27,7 @@
 
 .hero-text {
     width: 100%;
-    margin: auto;
+    margin: 20rem 0 0 0 ;
     padding: 1rem;
 }
 
@@ -54,7 +54,7 @@
 .image-slider {
     width: 100%;
     position: relative;
-    height: 100dvh;
+    height: 80dvh;
 }
 
 .image-slider img {
@@ -147,7 +147,6 @@
     .hero-text h1 {
         font-size: 1.3rem;
         text-align: center;
-        padding: .5rem 0;
         font-weight: normal;
         letter-spacing: 3px;
     }
@@ -156,7 +155,7 @@
         color: rgb(4, 66, 117);
         letter-spacing: 1px;
         font-weight: normal;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: 'Roboto', sans-serif;
         line-height: 2.5rem;
         text-align: center;
