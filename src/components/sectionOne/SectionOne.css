@@ -171,3 +171,20 @@
       
 
 }
+
+@media screen and (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 1rem;
+    letter-spacing: 0px;
+}
+
+.hero-text h2 {
+    letter-spacing: 1px;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+.hero-text p {
+  font-size: 14px;
+}
+}
