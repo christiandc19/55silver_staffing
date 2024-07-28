@@ -39,7 +39,10 @@
   }
 
 
-
+.no-job-match {
+  text-align: center;
+  padding: 2rem 1rem;
+}
 
   .job-list {
     list-style: none;
