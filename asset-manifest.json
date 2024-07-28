@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.4e89ad62.css",
-    "main.js": "/55silver_staffing/static/js/main.58962745.js",
+    "main.css": "/55silver_staffing/static/css/main.0c8b2f33.css",
+    "main.js": "/55silver_staffing/static/js/main.1c265dc4.js",
     "static/media/menu-bg-contact.jpg": "/55silver_staffing/static/media/menu-bg-contact.c2e16482f83e3957ca6e.jpg",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/menu-bg-about-min.webp": "/55silver_staffing/static/media/menu-bg-about-min.de7a1ef07f65295ec4e7.webp",
@@ -28,11 +28,11 @@
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.4e89ad62.css.map": "/55silver_staffing/static/css/main.4e89ad62.css.map",
-    "main.58962745.js.map": "/55silver_staffing/static/js/main.58962745.js.map"
+    "main.0c8b2f33.css.map": "/55silver_staffing/static/css/main.0c8b2f33.css.map",
+    "main.1c265dc4.js.map": "/55silver_staffing/static/js/main.1c265dc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e89ad62.css",
-    "static/js/main.58962745.js"
+    "static/css/main.0c8b2f33.css",
+    "static/js/main.1c265dc4.js"
   ]
 }
