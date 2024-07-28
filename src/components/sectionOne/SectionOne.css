@@ -31,11 +31,10 @@
 }
 
 .hero-text h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: rgba(23, 102, 121, 0.877);
     font-family: 'El Messiri', sans-serif;
     text-align: left;
-    padding: .5rem 0;
     font-weight: normal;
     letter-spacing: 3px;
     line-height: 1.3rem;
@@ -45,10 +44,16 @@
     color: rgb(4, 66, 117);
     letter-spacing: 3px;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    line-height: 2.8rem;
     text-align: left;
+}
+
+.hero-text h3 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1rem;
+  padding: .5rem 0;
 }
 
 .image-slider {
@@ -145,19 +150,12 @@
     }
 
     .hero-text h1 {
-        font-size: 1.3rem;
         text-align: center;
         font-weight: normal;
         letter-spacing: 3px;
     }
     
     .hero-text h2 {
-        color: rgb(4, 66, 117);
-        letter-spacing: 1px;
-        font-weight: normal;
-        font-size: 2rem;
-        font-family: 'Roboto', sans-serif;
-        line-height: 2.5rem;
         text-align: center;
     }
 
@@ -169,7 +167,11 @@
         justify-content: center;
       }
       
-
+      .hero-text {
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: 0 1rem;
+      }
 }
 
 @media screen and (max-width: 600px) {
@@ -181,8 +183,7 @@
 
 .hero-text h2 {
     letter-spacing: 1px;
-    font-size: .9rem;
-    line-height: 1rem;
+    font-size: 1.3rem;
 }
 
 .hero-text p {
