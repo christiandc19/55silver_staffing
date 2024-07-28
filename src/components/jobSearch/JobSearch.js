@@ -27,12 +27,18 @@ const JobSearch = () => {
   );
 
   return (
+  
+  // Search Header
+
     <div className="jobSearch container" name='jobsearch'>
       <div className='jobSearchHeader'>
         <h1>Search Jobs</h1>
         <h2>Nursing. Allied Health. Locum Tenens. Respiratory. Correctional Health.</h2>
-        <br />
       </div>
+      <br />
+
+{/* Search Bar */}
+
       <div className="search-container">
         <input
           type="text"
@@ -50,8 +56,9 @@ const JobSearch = () => {
         />
       </div>
 
+{/* Job Items */}
 
-      <div className='job-list-flex container'>
+      <div className='job-list-flex'>
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
 
         <ul className="job-list">

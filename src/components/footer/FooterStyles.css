@@ -138,13 +138,6 @@
         width: 100%;
     }
     
-    
-    
-
-}
-
-
-@media screen and (max-width: 940px) {
     .footer {
         height: 100%;
     }
@@ -158,6 +151,10 @@
 @media screen and (max-width: 600px) {
     .footerFlexItem {
         width: 100%;
+    }
+
+    .footer-logo {
+        width: 150px;
     }
 
     .footer .top .logo-footer {

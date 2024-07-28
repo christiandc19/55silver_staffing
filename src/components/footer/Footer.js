@@ -18,10 +18,6 @@ const Footer = () => {
               <div className="footer-logo">
                 <img src={logo} alt="55 Silver Logo" loading="lazy"/>
               </div>
-                
-                <h2>HAVE SOME QUESTIONS?</h2>
-                <p>At 55 Silver, we are here to assist you with all your healthcare staffing needs. Whether you require temporary, permanent, or specialized staffing solutions, our dedicated team is ready to provide the best professionals for your facility.</p>
-                <p>(323-) 792-0502</p>
             </div>
             <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
