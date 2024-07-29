@@ -73,7 +73,7 @@
     background: rgb(6, 149, 192);
     list-style: none;
     padding: 0;
-    width: 40%;
+    width: max-content;
     border-radius: 10px;
     z-index: 99999;
   }
