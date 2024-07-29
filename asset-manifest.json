@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.8423524e.css",
-    "main.js": "/55silver_staffing/static/js/main.a89441e8.js",
+    "main.css": "/55silver_staffing/static/css/main.c2864bfc.css",
+    "main.js": "/55silver_staffing/static/js/main.4cec45d4.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/55silver_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
@@ -29,13 +29,14 @@
     "static/media/program_crisis_intervention.webp": "/55silver_staffing/static/media/program_crisis_intervention.cce765fad6be8ebe99c3.webp",
     "static/media/behavioral_health.webp": "/55silver_staffing/static/media/behavioral_health.c2c02671a06a15bde298.webp",
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
+    "static/media/male_nurse_II.webp": "/55silver_staffing/static/media/male_nurse_II.75b8225fbcb23c95ecf1.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.8423524e.css.map": "/55silver_staffing/static/css/main.8423524e.css.map",
-    "main.a89441e8.js.map": "/55silver_staffing/static/js/main.a89441e8.js.map"
+    "main.c2864bfc.css.map": "/55silver_staffing/static/css/main.c2864bfc.css.map",
+    "main.4cec45d4.js.map": "/55silver_staffing/static/js/main.4cec45d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8423524e.css",
-    "static/js/main.a89441e8.js"
+    "static/css/main.c2864bfc.css",
+    "static/js/main.4cec45d4.js"
   ]
 }
