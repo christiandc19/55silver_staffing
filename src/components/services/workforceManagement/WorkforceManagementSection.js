@@ -4,10 +4,13 @@ import './WorkforceManagementSection.css'; // Import the CSS file
 const WorkforceManagementSection = () => {
     return (
         <section className="workforce-management-section">
-            <div className="content-container">
+
+            <div className="content-container container">
+
                 <div className="image-container">
                     <img src="https://via.placeholder.com/600x400" alt="Workforce Management" />
                 </div>
+
                 <div className="text-container">
                     <h1>Efficient Workforce Management</h1>
                     <p>
@@ -22,7 +25,9 @@ const WorkforceManagementSection = () => {
                     </p>
                     <button className="learn-more-btn">Learn More</button>
                 </div>
+
             </div>
+
         </section>
     );
 };

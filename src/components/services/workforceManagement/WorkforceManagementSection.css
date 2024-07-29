@@ -8,7 +8,6 @@
 
 .content-container {
     display: flex;
-    flex-direction: column; /* Stack items vertically on small screens */
     align-items: center;
     width: 100%;
     max-width: 1200px; /* Adjust as needed */
@@ -17,7 +16,6 @@
 
 .image-container {
     width: 100%;
-    max-width: 600px;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -31,7 +29,7 @@
 
 .text-container {
     text-align: center;
-    max-width: 600px;
+    max-width: 50%;
 }
 
 .text-container h1 {
@@ -41,9 +39,8 @@
 }
 
 .text-container p {
-    font-size: 1.2em;
+    font-size: 14px;
     color: #666;
-    line-height: 1.5;
     margin-bottom: 20px;
 }
 
@@ -63,19 +60,3 @@
 }
 
 /* Responsive layout for larger screens */
-@media (min-width: 768px) {
-    .content-container {
-        flex-direction: row; /* Align items side by side */
-        align-items: flex-start; /* Align items at the start */
-    }
-
-    .image-container {
-        flex: 1;
-        margin-right: 20px; /* Space between image and text */
-    }
-
-    .text-container {
-        flex: 1;
-        text-align: left; /* Align text to the left */
-    }
-}
