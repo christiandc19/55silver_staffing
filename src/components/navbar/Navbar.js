@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
+import { FaAngleDown } from "react-icons/fa";
 
 import logo from '../../assets/nav-logo.png'
 
@@ -44,7 +45,8 @@ const Navbar = () => {
         </li>
         <li className="nav-item dropdown">
           <span className="nav-links" onClick={toggleMenu}>
-            Specialties
+            Specialties <span className='subArrow'><FaAngleDown />
+            </span>
           </span>
           <ul className="dropdown-menu">
             <li>

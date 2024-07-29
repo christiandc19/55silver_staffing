@@ -2,6 +2,7 @@ import React from 'react'
 import "./Component3.css";
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
+import Zoom from 'react-reveal/Zoom';
 
 import woman_relaxing from "../../assets/female_nurse_2.webp";
 
@@ -11,7 +12,6 @@ const Component3 = () => {
       
       {/* MENTAL HEALTH SERVICES */}
       <div className="component3">
-
 
           <div className="component3-content container">
 
@@ -36,11 +36,11 @@ const Component3 = () => {
 
 
           <div className="c3-right">
-
-            
+          <Zoom duration={3000}>
             <div className='c3-right-img'>
               <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
             </div>
+          </Zoom>
             
 
           </div>

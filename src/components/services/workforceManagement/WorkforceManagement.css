@@ -3,7 +3,7 @@
 
 .workforceManagement {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background: rgba(0, 0, 0, 0.322);
     position: relative;
   }
@@ -11,7 +11,7 @@
   .workforceManagement:before {
     content: '';
     position: absolute;
-    background: url('../../../assets/specialties_nursing.webp') no-repeat center center/cover;
+    background: url('../../../assets/workforce_management_hero.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -27,7 +27,7 @@
 .workforceManagementContent {
     display: block;
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     padding: 1rem;
     width: 50%;
 }
@@ -40,6 +40,7 @@
     padding: .5rem 0;
     font-weight: normal;
     letter-spacing: 3px;
+    line-height: 2.5rem;
 }
 
 .workforceManagement p {
@@ -77,5 +78,11 @@
 
       .workforceManagement h1 {
         font-size: 2rem;
+        line-height: 2rem;
+    }
+
+
+    .workforceManagementContent {
+        bottom: 10%;
     }
 }

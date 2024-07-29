@@ -1,17 +1,17 @@
 import React from 'react';
-import './AlliedHealthSection.css';  // Import the CSS file
+import './AlliedHealth_II.css';  // Import the CSS file
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from "react-scroll";
 import Nurse from '../../../assets/jobSearchHero.webp'
 
-const AlliedHealth = () => {
+const AlliedHealth_II = () => {
     return (
-        <div className="allied-health-container">
-            <div className="image-container">
+        <div className="AlliedHealth2Container">
+            <div className="AlliedHealth2Image">
                 <img src= {Nurse} alt="Allied Health" />
             </div>
-            <div className="text-container">
-                <h1>Allied Health Professionals</h1>
+            <div className="AlliedHealth2Text">
+                <h1>What is Allied Health?</h1>
                 <p>
                     Allied health professionals play a crucial role in the healthcare system. 
                     They work alongside doctors, nurses, and other healthcare providers to deliver comprehensive care.
@@ -31,4 +31,4 @@ const AlliedHealth = () => {
     );
 };
 
-export default AlliedHealth;
+export default AlliedHealth_II;

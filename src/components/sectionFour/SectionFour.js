@@ -2,6 +2,7 @@ import React from 'react'
 import "./SectionFour.css";
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
+import Zoom from 'react-reveal/Zoom';
 
 import woman_relaxing from "../../assets/doctors.webp";
 
@@ -17,9 +18,13 @@ const SectionFour = () => {
 
 
           <div className="sectionFourLeft">
-            <div className='sectionFourLeftImg'>
-              <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
-            </div>
+
+            <Zoom duration={3000}>
+              <div className='sectionFourLeftImg'>
+                <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
+              </div>
+            </Zoom>
+
           </div>
 
           <div className="sectionFourRight">

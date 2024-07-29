@@ -1,4 +1,4 @@
-.allied-health-container {
+.AlliedHealth2Container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,18 +7,20 @@
 
 .allied-health-content {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center;
     width: 100%;
+    max-width: 1200px; /* Adjust as needed */
     gap: 20px; /* Space between the image and text */
 }
 
-.image-container {
+.AlliedHealth2Image {
     width: 100%;
-    width: 600px;
+    max-width: 600px;
     overflow: hidden;
 }
 
-.image-container img {
+.AlliedHealth2Image img {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -26,23 +28,18 @@
     display: block;
 }
 
-.text-container {
+.AlliedHealth2Text {
     text-align: center;
-    width: 600px;
-    padding: 0 1rem;
+    max-width: 600px;
 }
 
-.text-container h1 {
-    font-size: 1.5rem;
-    color: rgba(23, 102, 121, 0.877);
-    font-family: 'El Messiri', sans-serif;
-    text-align: left;
-    font-weight: normal;
-    letter-spacing: 3px;
-    line-height: 2rem;
+.tAlliedHealth2Text h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-.text-container p {
+.AlliedHealth2Text p {
     font-size: 15px;
     color: #666;
     line-height: 1.5;
@@ -68,3 +65,19 @@
 }
 
 /* Responsive layout for larger screens */
+@media (min-width: 768px) {
+    .allied-health-content {
+        flex-direction: row; /* Align items side by side */
+        align-items: flex-start; /* Align items at the start */
+    }
+
+    .image-container {
+        flex: 1;
+        margin-right: 20px; /* Space between image and text */
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: left; /* Align text to the left */
+    }
+}

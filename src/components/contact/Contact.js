@@ -16,7 +16,7 @@ const Contact = () => {
       <div className='contact-hero'>
             <div className="contact-hero-content">
                     <h1>HAVE SOME QUESTIONS?</h1>
-                  <p>Talk to a member of our Addiction and Recovery Support team. </p>
+                  <p>Talk to a member of our healthcare recruiting experts. </p>
      
                   <h2> +1 (213) 584-4445 </h2>
 
