@@ -51,10 +51,13 @@ const NursingSection = () => {
                 <p>Our commitment to excellence extends beyond placement. We provide ongoing support to our nurses and partner facilities to ensure a smooth transition and long-term satisfaction. Our retention programs are designed to keep our nurses motivated and engaged, promoting a stable and reliable workforce.</p>
 
                 <h1>Why Choose 55 Silver Healthcare Staffing?</h1>
-                <p><b>Expertise: </b>Our team has extensive experience in healthcare staffing, providing insight and guidance to meet your specific needs.</p>
-                <p><b>Quality: </b>We prioritize quality in every placement, ensuring that our nurses deliver exceptional care.</p>
-                <p><b>Flexibility: </b>Our flexible staffing solutions adapt to the changing demands of healthcare environments.</p>
-                <p><b>Partnership: </b>We build lasting relationships with our clients, working collaboratively to achieve the best outcomes.</p>
+                <ul>
+                  <li>Expertise: Our team has extensive experience in healthcare staffing, providing insight and guidance to meet your specific needs.
+                  </li>
+                  <li>Quality: We prioritize quality in every placement, ensuring that our nurses deliver exceptional care.</li>
+                  <li>Flexibility: Our flexible staffing solutions adapt to the changing demands of healthcare environments.</li>
+                  <li>Partnership: We build lasting relationships with our clients, working collaboratively to achieve the best outcomes.</li>
+                </ul>
 
                 <br />
                 <p>Partner with 55 Silver for all your nurse staffing needs and experience the difference that quality, dedication, and expertise can make. Let us help you provide the best care for your patients with our exceptional nursing professionals.</p>

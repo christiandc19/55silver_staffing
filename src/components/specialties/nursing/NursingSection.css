@@ -13,7 +13,7 @@
 
 .nursingSectionHeader p {
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .nursingSectionHeader h1 {
@@ -33,12 +33,12 @@
 }
 
 .nursingSectionLeft {
-  width: 50%;
+  width: 100%;
   margin: auto 0;
 }
 
 .nursingSectionRight {
-  width: 500px;
+  width: 100%;
   margin: auto;
   background-repeat: no-repeat;
 }
@@ -48,14 +48,18 @@
   border-radius: 10px;
 }
 
-.nursingSection .nursingSectionLeft h1 {
-  font-size: 1rem;
-  color: rgba(23, 102, 121, 0.877);
-  font-family: 'El Messiri', sans-serif;
-  text-align: left;
+.nursingSectionLeft h1 {
+  color: rgb(4, 66, 117);
   font-weight: normal;
-  letter-spacing: 3px;
-  padding-top: 1rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+}
+
+.nursingSectionLeft p {
+  text-align: justify;
+  line-height: normal
 }
 
 .nursingSectionLeft ul {
@@ -68,13 +72,22 @@
 }
 
 .nurseSectionFooter h1 {
-  font-size: 1rem;
-  color: rgba(23, 102, 121, 0.877);
-  font-family: 'El Messiri', sans-serif;
-  text-align: left;
+  color: rgb(4, 66, 117);
   font-weight: normal;
-  letter-spacing: 3px;
-  padding-top: 1rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+}
+
+.nurseSectionFooter ul {
+  padding: 0 1rem;
+}
+
+.nurseSectionFooter ul li{
+  padding: 0 .5rem;
+  list-style-type: disc;
+  text-align: left 
 }
 
 
