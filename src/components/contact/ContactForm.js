@@ -64,7 +64,7 @@ const ContactForm = () => {
                                 </div>
                                 <div>
                                     <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
-                                    <input type="file" name="attachment" /> {/* File input */}
+                                    {/* <input type="file" name="attachment" /> */}
                                     <input type="submit" value="Submit" />
                                 </div>
 

@@ -75,6 +75,10 @@
     color: white;
 }
 
+.c3-btn button:hover {
+    background-color: #04768a8e;
+}
+
 
 
 @media  screen and (max-width:940px) {
