@@ -20,8 +20,11 @@ const ContactForm = () => {
             formData.append('attachment', fileInput.files[0]);
         }
 
+        // Convert FormData to a plain object
+        const formDataObj = Object.fromEntries(formData.entries());
+
         // Debug: Log form data
-        for (let [key, value] of formData.entries()) {
+        for (let [key, value] of Object.entries(formDataObj)) {
             console.log(`${key}: ${value}`);
         }
 
@@ -32,7 +35,7 @@ const ContactForm = () => {
         }, 3000);
 
         // Send email using EmailJS
-        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.send('service_hsunksm', 'template_rxc8sbg', formDataObj, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -67,7 +70,7 @@ const ContactForm = () => {
 
                                 {feedbackVisible && (
                                     <div className="textarea2 feedback">
-                                        <textarea name="message2" cols="30" rows="3" readOnly>Message Sent to Contra Costa Rehab!</textarea>
+                                        <textarea name="message2" cols="30" rows="3" readOnly>Message Sent to 55 Silver!</textarea>
                                     </div>
                                 )}
                             </form>

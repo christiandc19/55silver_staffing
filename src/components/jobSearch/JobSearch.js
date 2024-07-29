@@ -8,7 +8,7 @@ const JobSearch = () => {
   const [titleSearchTerm, setTitleSearchTerm] = useState('');
   const [locationSearchTerm, setLocationSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 10; // Number of jobs per page
+  const jobsPerPage = 6; // Number of jobs per page
   const navigate = useNavigate();
 
   const handleTitleSearch = (event) => {

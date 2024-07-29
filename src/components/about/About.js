@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css'
 
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -10,7 +11,9 @@ const About = () => {
             <>
             <div className='about main-menu'>
                         <div className="about-content">
-                                <h1>ABOUT US</h1>
+                                <Zoom duration={3000}>
+                                        <h1>Learn More About Us</h1>
+                                </Zoom>
                         </div>
                     </div>
             </>
