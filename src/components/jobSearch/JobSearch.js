@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import nurseJobs from '../../data/nurseJobs';
 import './JobSearch.css';
 import { Link as LinkRoll } from 'react-scroll';
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const JobSearch = () => {
   const [titleSearchTerm, setTitleSearchTerm] = useState('');
@@ -97,11 +99,12 @@ const JobSearch = () => {
         {filteredJobs.length > jobsPerPage && (
           <div className="pagination">
             <button onClick={handlePreviousPage} disabled={currentPage === 1}>
-              Previous
+            <FaArrowLeft />
+
             </button>
             <span>Page {currentPage} of {totalPages}</span>
             <button onClick={handleNextPage} disabled={currentPage === totalPages}>
-              Next
+            <FaArrowRight />
             </button>
           </div>
         )}
