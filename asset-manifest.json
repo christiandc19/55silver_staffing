@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.703fcc19.css",
-    "main.js": "/55silver_staffing/static/js/main.2f1be421.js",
+    "main.css": "/55silver_staffing/static/css/main.0b542673.css",
+    "main.js": "/55silver_staffing/static/js/main.21a5ec50.js",
     "static/media/menu-bg-contact.jpg": "/55silver_staffing/static/media/menu-bg-contact.c2e16482f83e3957ca6e.jpg",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/menu-bg-about-min.webp": "/55silver_staffing/static/media/menu-bg-about-min.de7a1ef07f65295ec4e7.webp",
@@ -13,7 +13,7 @@
     "static/media/about-section-min.webp": "/55silver_staffing/static/media/about-section-min.39f78367066a326082e9.webp",
     "static/media/program_family_therapy.webp": "/55silver_staffing/static/media/program_family_therapy.2933ad3f308c625bb63a.webp",
     "static/media/specialties_section_male_nurse.webp": "/55silver_staffing/static/media/specialties_section_male_nurse.0a75cb1a044986f75241.webp",
-    "static/media/search_jobs_hero.webp": "/55silver_staffing/static/media/search_jobs_hero.46c6b765ae18d3cd24f0.webp",
+    "static/media/search_jobs_hero.webp": "/55silver_staffing/static/media/search_jobs_hero.5886a23f13742803cafa.webp",
     "static/media/specialties_section_behavioral_health.webp": "/55silver_staffing/static/media/specialties_section_behavioral_health.2912075f79e8b9e6a151.webp",
     "static/media/doctors.webp": "/55silver_staffing/static/media/doctors.5c28779188d1543ff3e2.webp",
     "static/media/nav-logo.png": "/55silver_staffing/static/media/nav-logo.b446261424cde831761e.png",
@@ -28,11 +28,11 @@
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.703fcc19.css.map": "/55silver_staffing/static/css/main.703fcc19.css.map",
-    "main.2f1be421.js.map": "/55silver_staffing/static/js/main.2f1be421.js.map"
+    "main.0b542673.css.map": "/55silver_staffing/static/css/main.0b542673.css.map",
+    "main.21a5ec50.js.map": "/55silver_staffing/static/js/main.21a5ec50.js.map"
   },
   "entrypoints": [
-    "static/css/main.703fcc19.css",
-    "static/js/main.2f1be421.js"
+    "static/css/main.0b542673.css",
+    "static/js/main.21a5ec50.js"
   ]
 }
