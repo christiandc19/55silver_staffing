@@ -45,6 +45,7 @@ const JobSearch = () => {
 
   return (
     <>
+    <div className='JobSearchSection-bg'>
       <div className="jobSearch container" name="jobsearch">
         <div className="jobSearchHeader">
           <h1>Search Jobs</h1>
@@ -87,7 +88,7 @@ const JobSearch = () => {
                 ))}
               </ul>
             ) : (
-              <p className="no-job-match">No Job Match</p>
+              <p className="no-job-match">No Job Matches Found</p>
             )}
           </LinkRoll>
         </div>
@@ -104,6 +105,7 @@ const JobSearch = () => {
             </button>
           </div>
         )}
+      </div>
       </div>
     </>
   );

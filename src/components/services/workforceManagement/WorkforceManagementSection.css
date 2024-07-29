@@ -1,77 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
-.about-container {
-    padding: 5rem 0;
-}
-
-.about-content {
+.workforce-management-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
 }
 
-.about-content-left {
-    width: 50%;
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    gap: 20px; /* Space between the image and text */
+}
+
+.image-container {
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text-container {
     text-align: center;
-    margin: auto;
+    max-width: 600px;
 }
 
-.about-content-left img {
-    width: 100%;
-    border-radius: 1rem;
+.text-container h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-.about-content-right {
-    width: 100%;
-    margin: auto;
-    padding: 0 2rem;
+.text-container p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
-
-.about-content-right h2 {
-    font-size: 3rem;
+.learn-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
 }
 
-.about-content-right h1 {
-    text-transform: uppercase;
-    color: var(--primary-color);
-    font-size: 2rem;
-    letter-spacing: 2px; 
-    font-weight: normal;
-    padding: 1rem 0;
+.learn-more-btn:hover {
+    background-color: #0056b3;
 }
 
-.about-content-right p {
-    font-size: 15px;
-    text-align: justify;
-}
-
-
-
-
-
-@media screen and (max-width:1250px)  {
-
-
-    .about-content-right h1, .about-content-right h2 {
-        text-align: center;
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+    .content-container {
+        flex-direction: row; /* Align items side by side */
+        align-items: flex-start; /* Align items at the start */
     }
 
-    .about-content-right h2 {
-        font-size: 2rem;
+    .image-container {
+        flex: 1;
+        margin-right: 20px; /* Space between image and text */
     }
 
-}
-
-@media screen and (max-width:940px) {
-
-    .about-content {
-        flex-wrap: wrap;
-    }
-
-    .about-content-left {
-        width: 100vw;
-    }
-    .about-content-left img {
-        padding: 2rem;
+    .text-container {
+        flex: 1;
+        text-align: left; /* Align text to the left */
     }
 }

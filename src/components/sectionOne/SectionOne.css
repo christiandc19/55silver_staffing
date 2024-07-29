@@ -31,20 +31,20 @@
 }
 
 .hero-text h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgba(23, 102, 121, 0.877);
     font-family: 'El Messiri', sans-serif;
     text-align: left;
     font-weight: normal;
     letter-spacing: 3px;
-    line-height: 1.3rem;
+    line-height: 2rem;
 }
 
 .hero-text h2 {
     color: rgb(4, 66, 117);
     letter-spacing: 3px;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
@@ -116,7 +116,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #04768a8e; /* Change color as needed */
+    background-color: rgb(31, 133, 192); /* Change color as needed */
     color: #ffffff;
     font-size: 24px;
   }
@@ -127,8 +127,9 @@
   }
 
   .heroBtn button {
+    background-color: rgb(31, 133, 192); /* Change color as needed */
     padding: .8rem 1.5rem;
-    background-color: #04768a8e; /* Change color as needed */
+    background-color: (31, 133, 192); /* Change color as needed */
     color: #ffffff;
 
   }

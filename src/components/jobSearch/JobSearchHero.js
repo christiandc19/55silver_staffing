@@ -1,6 +1,7 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
 import './JobSearchHero.css'
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -16,7 +17,9 @@ const JobSearchHero = () => {
 
         <div className='jobSearchHero'>
                 <div className="jobSearchHeroContent">
+                    <Zoom duration={3000}>
                     <h1>Explore our Healthcare Jobs</h1>
+                    </Zoom>
                 </div>
             </div>
 </>

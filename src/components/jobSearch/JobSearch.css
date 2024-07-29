@@ -1,4 +1,24 @@
 /* src/components/JobSearch.css */
+
+.JobSearchSection-bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.JobSearchSection-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.06;
+}
+
 .jobSearch {
     padding: 1rem;
   }
@@ -102,10 +122,29 @@
     font-weight: normal;
     color: rgb(68, 66, 66);
   }
+
+  .pagination {
+    text-align: right;
+    padding: 2rem 0;
+  }
+
+  .pagination button {
+    margin: 0 1rem;
+  }
   
+
+  @media screen and (max-width: 940px) {
+    .job-list li {
+      width: 45%;
+    }
+  }
 
   @media screen and (max-width: 600px) {
     .job-list li {
       width: 100%;
+    }
+
+    .pagination {
+      text-align: center;
     }
   }
