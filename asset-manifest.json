@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.4790959d.css",
-    "main.js": "/55silver_staffing/static/js/main.da275096.js",
+    "main.css": "/55silver_staffing/static/css/main.58499702.css",
+    "main.js": "/55silver_staffing/static/js/main.cca89ec7.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/55silver_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
@@ -32,11 +32,11 @@
     "static/media/male_nurse_II.webp": "/55silver_staffing/static/media/male_nurse_II.75b8225fbcb23c95ecf1.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.4790959d.css.map": "/55silver_staffing/static/css/main.4790959d.css.map",
-    "main.da275096.js.map": "/55silver_staffing/static/js/main.da275096.js.map"
+    "main.58499702.css.map": "/55silver_staffing/static/css/main.58499702.css.map",
+    "main.cca89ec7.js.map": "/55silver_staffing/static/js/main.cca89ec7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4790959d.css",
-    "static/js/main.da275096.js"
+    "static/css/main.58499702.css",
+    "static/js/main.cca89ec7.js"
   ]
 }
