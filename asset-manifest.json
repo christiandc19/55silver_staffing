@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.f5e97107.css",
+    "main.css": "/55silver_staffing/static/css/main.792d27a4.css",
     "main.js": "/55silver_staffing/static/js/main.acbdcb7d.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
@@ -30,11 +30,11 @@
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.f5e97107.css.map": "/55silver_staffing/static/css/main.f5e97107.css.map",
+    "main.792d27a4.css.map": "/55silver_staffing/static/css/main.792d27a4.css.map",
     "main.acbdcb7d.js.map": "/55silver_staffing/static/js/main.acbdcb7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5e97107.css",
+    "static/css/main.792d27a4.css",
     "static/js/main.acbdcb7d.js"
   ]
 }
