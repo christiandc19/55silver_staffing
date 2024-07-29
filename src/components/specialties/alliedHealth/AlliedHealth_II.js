@@ -1,15 +1,13 @@
 import React from 'react';
 import './AlliedHealth_II.css';  // Import the CSS file
-import { Link } from 'react-router-dom';
-import { Link as LinkRoll } from "react-scroll";
-import Nurse from '../../../assets/jobSearchHero.webp'
+// import { Link } from 'react-router-dom';
+// import { Link as LinkRoll } from "react-scroll";
+import Nurse from '../../../assets/male_nurse_II.webp'
 
 const AlliedHealth_II = () => {
     return (
-        <div className="AlliedHealth2Container">
-            <div className="AlliedHealth2Image">
-                <img src= {Nurse} alt="Allied Health" />
-            </div>
+        <div className="AlliedHealth2Container container">
+
             <div className="AlliedHealth2Text">
                 <h1>What is Allied Health?</h1>
                 <p>
@@ -21,12 +19,25 @@ const AlliedHealth_II = () => {
                     occupational therapists, and speech-language pathologists, among others. 
                     They are committed to improving patient outcomes and enhancing quality of life through specialized care.
                 </p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to='/job-search'>
-                    <button className="learn-more-btn">Explore Allied Health Jobs</button>
-                    </Link>
-                </LinkRoll>
+
+                <h1>Roles We Staff</h1>
+                <ul>
+                    <li>Medical Technologists</li>
+                    <li>Radiologic Technicians</li>
+                    <li>Respiratory Therapists</li>
+                    <li>Physical Therapists</li>
+                    <li>Occupational Therapists</li>
+                    <li>Speech-Language Pathologists</li>
+                    <li>Dietitians and Nutritionists</li>
+                    <li>Pharmacy Technicians</li>
+
+                </ul>
             </div>
+
+            <div className="AlliedHealth2Image">
+                <img src= {Nurse} alt="Allied Health" />
+            </div>
+
         </div>
     );
 };
