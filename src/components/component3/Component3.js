@@ -16,6 +16,8 @@ const Component3 = () => {
           <div className="component3-content container">
 
           <div className="c3-left">
+          <Zoom duration={2000}>
+
           <h1>ABOUT US</h1>            
           <h2>Connecting Excellence with Compassion in Healthcare Staffing</h2>
 
@@ -31,18 +33,16 @@ const Component3 = () => {
                   </Link>
               </LinkRoll>
           </div>
+          </Zoom>
 
           </div>
 
 
           <div className="c3-right">
-          <Zoom duration={2000}>
             <div className='c3-right-img'>
               <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
             </div>
-          </Zoom>
-            
-
+    
           </div>
           </div>
         </div>

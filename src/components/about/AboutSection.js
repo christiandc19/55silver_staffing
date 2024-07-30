@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutSection.css";
-import AboutUs from "../../assets/about-section-min.webp";
+import AboutUs from "../../assets/about_us_section.webp";
 
 const AboutSection = () => {
   return (
@@ -12,18 +12,16 @@ const AboutSection = () => {
           </div>
 
           <div className="about-content-right">
-            <h1>Welcome to 55 Silver Healthcare Staffing</h1> 
-            <h2>Work in Progress...</h2>
-            {/* <p>
-            At 55 Silver Healthcare Staffing, we are dedicated to bridging the gap between healthcare facilities and exceptional professionals. With a commitment to excellence and a deep understanding of the healthcare industry's unique demands, we provide tailored staffing solutions that meet the diverse needs of our clients.<br/> <br/>Our team comprises experienced recruiters and industry experts who specialize in sourcing, vetting, and placing highly qualified medical and allied health professionals. We cover a wide range of specialties, including nursing, dental, optometry, mental health, telehealth, biotechnology, physical therapy, behavioral health, and correctional health.
+            <h1>Who We Are</h1> 
+            <p>
+            At 55 Silver Healthcare Staffing, we are dedicated to bridging the gap between exceptional healthcare professionals and the facilities that need them. Founded on the principles of integrity, excellence, and personalized service, we strive to create lasting partnerships that enhance patient care and improve operational efficiency.
             </p>
             <h1>Our Mission</h1> 
             <p>
-            Our mission is to enhance healthcare delivery by providing staffing solutions that are efficient, responsive, and customized to the unique requirements of each client. Whether you need temporary staffing, permanent placements, or specialized professionals for specific projects, Benoux Agency Staffing is here to support you every step of the way.
+            Our mission is to provide comprehensive staffing solutions that meet the evolving needs of the healthcare industry. We are committed to delivering top-tier talent and unparalleled service, ensuring that our clients can focus on what matters most: providing outstanding patient care.
             </p>
-            <h1>Join Our Team! </h1> 
-            <p>Join us in our commitment to improving healthcare outcomes through exceptional staffing solutions. Together, we can ensure that patients receive the best possible care and that healthcare facilities operate at their highest potential.</p>
- */}
+            <h1>Our Vision</h1> 
+            <p>At 55 Silver Healthcare Staffing, our vision is to revolutionize the healthcare staffing industry by providing unparalleled service and support to both healthcare facilities and professionals. Together, we aim to build a future where healthcare staffing is seamless, efficient, and driven by a commitment to quality and excellence.</p>
           </div>
         </div>
       </div>

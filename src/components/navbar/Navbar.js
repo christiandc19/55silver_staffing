@@ -83,11 +83,6 @@ const Navbar = () => {
 
           </ul>
         </li>
-        <li className="nav-item">
-          <Link to="/about-us" className="nav-links" onClick={closeMenu}>
-            About Us
-          </Link>
-        </li>
         <li className="nav-item dropdown">
           <span className="nav-links" onClick={toggleMenu}>
             Services <span className='subArrow'><FaAngleDown />
@@ -106,6 +101,14 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
+
+        <li className="nav-item">
+          <Link to="/about-us" className="nav-links" onClick={closeMenu}>
+            About Us
+          </Link>
+        </li>
+
+
         <li className="nav-item">
           <Link to="/contact-us" className="nav-links" onClick={closeMenu}>
             Contact

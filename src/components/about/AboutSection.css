@@ -1,43 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .about-container {
-    padding: 5rem 0;
-}
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .about-container:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.08;
+  }
+
+
 
 .about-content {
     display: flex;
     justify-content: center;
+    padding-top: 3rem;
 }
 
 .about-content-left {
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
 
 .about-content-left img {
     width: 100%;
-    border-radius: 1rem;
+    display: block;
 }
 
 .about-content-right {
     width: 100%;
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 
 .about-content-right h2 {
-    font-size: 3rem;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: .2rem 0;
 }
 
 .about-content-right h1 {
-    text-transform: uppercase;
-    color: var(--primary-color);
-    font-size: 1rem;
-    letter-spacing: 2px; 
+    color: rgba(23, 102, 121, 0.877);
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
     font-weight: normal;
-    padding: 1rem 0;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 
 .about-content-right p {
@@ -45,33 +63,15 @@
     text-align: justify;
 }
 
-
-
-
-
-@media screen and (max-width:1250px)  {
-
-
-    .about-content-right h1, .about-content-right h2 {
-        text-align: center;
-    }
-
-    .about-content-right h2 {
-        font-size: 2rem;
-    }
-
-}
-
 @media screen and (max-width:940px) {
 
     .about-content {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
 
     .about-content-left {
         width: 100vw;
     }
-    .about-content-left img {
-        padding: 2rem;
-    }
+
+
 }

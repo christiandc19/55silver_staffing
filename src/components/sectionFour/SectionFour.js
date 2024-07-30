@@ -19,15 +19,14 @@ const SectionFour = () => {
 
           <div className="sectionFourLeft">
 
-            <Zoom duration={3000}>
               <div className='sectionFourLeftImg'>
                 <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
               </div>
-            </Zoom>
 
           </div>
 
           <div className="sectionFourRight">
+          <Zoom duration={2000}>
           <h1>WHY 55 SILVER</h1>            
           <h2>We're here for you every step of the way.</h2>
 
@@ -45,6 +44,7 @@ const SectionFour = () => {
                   </Link>
               </LinkRoll>
           </div>
+          </Zoom>
 
           </div>
 
