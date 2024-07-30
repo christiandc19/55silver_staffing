@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.c1e93f67.css",
-    "main.js": "/55silver_staffing/static/js/main.2b136819.js",
+    "main.css": "/55silver_staffing/static/css/main.dc3f2f91.css",
+    "main.js": "/55silver_staffing/static/js/main.737abca3.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
+    "static/media/about_us_section.webp": "/55silver_staffing/static/media/about_us_section.44e7dbbf2dd38f424c0a.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/55silver_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
     "static/media/woman_nurse.webp": "/55silver_staffing/static/media/woman_nurse.e1ca18ec13711bfc95c4.webp",
@@ -13,7 +14,6 @@
     "static/media/respiratory_section.webp": "/55silver_staffing/static/media/respiratory_section.f11216c0772dab3a40e7.webp",
     "static/media/whatwedo1.webp": "/55silver_staffing/static/media/whatwedo1.6ca2ef63472ddd0e1d5c.webp",
     "static/media/missionHome.webp": "/55silver_staffing/static/media/missionHome.7b7ef8033f4619cc2d95.webp",
-    "static/media/about-section-min.webp": "/55silver_staffing/static/media/about-section-min.39f78367066a326082e9.webp",
     "static/media/jobSearchHero.webp": "/55silver_staffing/static/media/jobSearchHero.10b62a775fadd9482749.webp",
     "static/media/doctors.webp": "/55silver_staffing/static/media/doctors.ea3d72e08156769361cb.webp",
     "static/media/program_family_therapy.webp": "/55silver_staffing/static/media/program_family_therapy.2933ad3f308c625bb63a.webp",
@@ -40,11 +40,11 @@
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.c1e93f67.css.map": "/55silver_staffing/static/css/main.c1e93f67.css.map",
-    "main.2b136819.js.map": "/55silver_staffing/static/js/main.2b136819.js.map"
+    "main.dc3f2f91.css.map": "/55silver_staffing/static/css/main.dc3f2f91.css.map",
+    "main.737abca3.js.map": "/55silver_staffing/static/js/main.737abca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1e93f67.css",
-    "static/js/main.2b136819.js"
+    "static/css/main.dc3f2f91.css",
+    "static/js/main.737abca3.js"
   ]
 }
