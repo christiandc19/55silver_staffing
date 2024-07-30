@@ -1,18 +1,12 @@
 .staffing-solutions-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 3rem 0;
 }
 
 .staffing-solutions-content {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 100%; /* Adjust as needed */
-  gap: 20px; /* Space between text and image */
+  gap: 1rem;
 }
 
 .text-container {
@@ -21,30 +15,28 @@
 }
 
 .text-container h1 {
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.text-container h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.589);
+  line-height: 1.5rem;
 }
 
 .text-container p {
-  font-size: 15px;
+  padding: .5rem 0;
   color: #666;
+  text-align: justify;
 }
 
-.learn-more-btn {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s ease;
-}
-
-.learn-more-btn:hover {
-  background-color: #0056b3;
-}
 
 .image-container {
   width: 100%;

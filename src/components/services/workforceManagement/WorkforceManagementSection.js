@@ -1,6 +1,6 @@
 import React from 'react';
 import './WorkforceManagementSection.css'; // Import the CSS file
-
+import MissionHome from '../../../assets/missionHome.webp'
 const WorkforceManagementSection = () => {
     return (
         <section className="workforce-management-section">
@@ -8,10 +8,10 @@ const WorkforceManagementSection = () => {
             <div className="content-container container">
 
                 <div className="image-container">
-                    <img src="https://via.placeholder.com/600x400" alt="Workforce Management" />
+                    <img src={MissionHome} alt="Workforce Management" loading='lazy'/>
                 </div>
 
-                <div className="text-container">
+                <div className="workforceText-container">
                     <h1>Efficient Workforce Management</h1>
                     <p>
                         Our workforce management solutions are designed to streamline operations,
@@ -23,7 +23,6 @@ const WorkforceManagementSection = () => {
                         help you stay ahead of the curve and adapt to changing demands. Discover
                         how our expertise can transform your workforce management and drive success.
                     </p>
-                    <button className="learn-more-btn">Learn More</button>
                 </div>
 
             </div>

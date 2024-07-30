@@ -90,7 +90,8 @@ const Navbar = () => {
         </li>
         <li className="nav-item dropdown">
           <span className="nav-links" onClick={toggleMenu}>
-            Services
+            Services <span className='subArrow'><FaAngleDown />
+            </span>
           </span>
           <ul className="dropdown-menu">
             <li>

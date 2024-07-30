@@ -70,11 +70,11 @@
     left: 0;
     right: 0;
     margin: 0 auto;    
-    background: rgb(6, 149, 192);
+    background: var(--primary-color);
     list-style: none;
     padding: 0;
     width: max-content;
-    border-radius: 10px;
+    border-radius: 2px;
     z-index: 99999;
   }
   
@@ -122,6 +122,11 @@
       background: var(--primary-color);
       transition: 0.5s ease-in;
     }
+
+    .navbar .dropdown-menu {
+      background: rgb(36, 112, 173);
+    }
+
   
     .navbar .nav-menu.active {
       left: 0;
