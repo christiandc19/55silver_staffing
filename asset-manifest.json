@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.2fb4f546.css",
-    "main.js": "/55silver_staffing/static/js/main.9b972fa7.js",
+    "main.css": "/55silver_staffing/static/css/main.c1e93f67.css",
+    "main.js": "/55silver_staffing/static/js/main.2b136819.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/55silver_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
@@ -12,12 +12,14 @@
     "static/media/male_nurse_II.webp": "/55silver_staffing/static/media/male_nurse_II.a0663da9db55d8b6a34d.webp",
     "static/media/respiratory_section.webp": "/55silver_staffing/static/media/respiratory_section.f11216c0772dab3a40e7.webp",
     "static/media/whatwedo1.webp": "/55silver_staffing/static/media/whatwedo1.6ca2ef63472ddd0e1d5c.webp",
+    "static/media/missionHome.webp": "/55silver_staffing/static/media/missionHome.7b7ef8033f4619cc2d95.webp",
     "static/media/about-section-min.webp": "/55silver_staffing/static/media/about-section-min.39f78367066a326082e9.webp",
     "static/media/jobSearchHero.webp": "/55silver_staffing/static/media/jobSearchHero.10b62a775fadd9482749.webp",
     "static/media/doctors.webp": "/55silver_staffing/static/media/doctors.ea3d72e08156769361cb.webp",
     "static/media/program_family_therapy.webp": "/55silver_staffing/static/media/program_family_therapy.2933ad3f308c625bb63a.webp",
     "static/media/specialties_section_male_nurse.webp": "/55silver_staffing/static/media/specialties_section_male_nurse.0a75cb1a044986f75241.webp",
     "static/media/allied_health.webp": "/55silver_staffing/static/media/allied_health.27f1e7d0929cb28d9f3d.webp",
+    "static/media/medical_staff.webp": "/55silver_staffing/static/media/medical_staff.eb09ce2cf8aef08570e2.webp",
     "static/media/search_jobs_hero.webp": "/55silver_staffing/static/media/search_jobs_hero.5886a23f13742803cafa.webp",
     "static/media/correctional_health_section.webp": "/55silver_staffing/static/media/correctional_health_section.c8953c6d45b421693c94.webp",
     "static/media/locum_tenens_hero.webp": "/55silver_staffing/static/media/locum_tenens_hero.ced7a10ec6a8d0379f1a.webp",
@@ -38,11 +40,11 @@
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.2fb4f546.css.map": "/55silver_staffing/static/css/main.2fb4f546.css.map",
-    "main.9b972fa7.js.map": "/55silver_staffing/static/js/main.9b972fa7.js.map"
+    "main.c1e93f67.css.map": "/55silver_staffing/static/css/main.c1e93f67.css.map",
+    "main.2b136819.js.map": "/55silver_staffing/static/js/main.2b136819.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fb4f546.css",
-    "static/js/main.9b972fa7.js"
+    "static/css/main.c1e93f67.css",
+    "static/js/main.2b136819.js"
   ]
 }
