@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import Zoom from 'react-reveal/Zoom';
 
-import woman_relaxing from "../../assets/female_nurse_2.webp";
+import woman_relaxing from "../../assets/correctional_health_section.webp";
 
 const Component3 = () => {
   return (
@@ -36,7 +36,7 @@ const Component3 = () => {
 
 
           <div className="c3-right">
-          <Zoom duration={3000}>
+          <Zoom duration={2000}>
             <div className='c3-right-img'>
               <img src={woman_relaxing} alt="woman_relaxing" loading="lazy" />
             </div>

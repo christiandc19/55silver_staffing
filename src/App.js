@@ -12,6 +12,9 @@ import Contact from './routes/ContactPage';
 import Nursing from './routes/NursingPage';
 import BehavioralHealth from './routes/BehavioralHealthPage';
 import AlliedHealth from './routes/AlliedHealthPage';
+import LocumTenens from './routes/LocumTenensPage';
+import Respiratory from './routes/RespiratoryPage';
+import CorrectionalHealth from './routes/CorrectionalHealthPage';
 
 // SERVICES
 import WorkforceManagement from './routes/WorkforceManagementPage';
@@ -33,6 +36,9 @@ const App = () => {
         <Route exact path="/nursing" element={<Nursing />} />
         <Route exact path="/behavioral-health" element={<BehavioralHealth />} />
         <Route exact path="/allied-health" element={<AlliedHealth />} />
+        <Route exact path="/locum-tenens" element={<LocumTenens />} />
+        <Route exact path="/respiratory" element={<Respiratory />} />
+        <Route exact path="/correctional-health" element={<CorrectionalHealth />} />
 
         {/* Services  */}
         <Route exact path="/workforce-management" element={<WorkforceManagement />} />

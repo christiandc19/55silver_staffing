@@ -9,7 +9,7 @@ const BehavioralHealthSection = () => {
 
 <div className='behavioralHealthSection'>
       <div className="behavioralHealthSectionHeader container">
-        <h1>BEHAVIORAL HEALTH</h1>
+        <h1>Behavioral Health</h1>
         <p>At 55 Silver, we understand the critical role that behavioral health professionals play in providing comprehensive mental health care. Our Behavioral Health Placement Services are designed to connect healthcare facilities with highly skilled and compassionate professionals dedicated to improving the mental well-being of patients.</p><br/>
       </div>
 
@@ -47,9 +47,12 @@ const BehavioralHealthSection = () => {
 <div className="behavioralHealthSectionFooter container">
                 <p>By partnering with 55 Silver Healthcare Staffing for your behavioral health placement needs, you benefit from:</p><br />
 
-                <p><b>Customized Staffing Solutions: </b>We tailor our services to meet the specific needs of your facility, whether you require temporary coverage, permanent placements, or specialized professionals for unique programs.</p>
-                <p><b>Quick and Efficient Placements: </b>Our extensive network and efficient processes allow us to quickly connect you with qualified professionals, minimizing downtime and ensuring continuity of care.</p>
-                <p><b>Ongoing Support and Engagement: </b>We maintain regular communication with both clients and candidates to ensure successful placements and address any concerns promptly.</p>
+                <ul>
+                <li>Customized Staffing Solutions: We tailor our services to meet the specific needs of your facility, whether you require temporary coverage, permanent placements, or specialized professionals for unique programs.</li>
+                <li>Quick and Efficient Placements: Our extensive network and efficient processes allow us to quickly connect you with qualified professionals, minimizing downtime and ensuring continuity of care.</li>
+                <li>Ongoing Support and Engagement: We maintain regular communication with both clients and candidates to ensure successful placements and address any concerns promptly.</li>
+              </ul>
+
                 <br />
                 <p>Our mission is to enhance the quality of behavioral health services by providing healthcare facilities with the best professionals in the field. Trust 55 Silver Healthcare Staffing to help you deliver exceptional mental health care and improve patient outcomes.</p>
 </div>

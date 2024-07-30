@@ -13,7 +13,6 @@
 
 .behavioralHealthSectionHeader p {
   text-align: justify;
-  font-size: 14px;
 }
 
 .behavioralHealthSectionHeader h1 {
@@ -22,7 +21,6 @@
   text-align: left;
   padding: .5rem 0;
   font-weight: normal;
-  letter-spacing: 3px;
 }
 
 .behavioralHealthSectionFlex {
@@ -49,13 +47,11 @@
 }
 
 .behavioralHealthSection .behavioralHealthSectionLeft h1 {
-  font-size: 1rem;
   color: rgba(23, 102, 121, 0.877);
   font-family: 'El Messiri', sans-serif;
   text-align: left;
+  padding: .5rem 0;
   font-weight: normal;
-  letter-spacing: 3px;
-  padding-top: 1rem;
 }
 
 .behavioralHealthSectionLeft ul {
@@ -67,14 +63,12 @@
   padding: 1rem;
 }
 
-.behavioralHealthSectionFooter h1 {
-  font-size: 1rem;
-  color: rgba(23, 102, 121, 0.877);
-  font-family: 'El Messiri', sans-serif;
-  text-align: left;
-  font-weight: normal;
-  letter-spacing: 3px;
-  padding-top: 1rem;
+
+
+
+.behavioralHealthSectionFooter ul {
+  list-style-type: disc;
+  padding: 0 1rem;
 }
 
 

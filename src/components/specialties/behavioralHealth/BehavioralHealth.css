@@ -3,7 +3,7 @@
 
 .behavioralHealth {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background: rgba(0, 0, 0, 0.322);
     position: relative;
   }
@@ -27,7 +27,7 @@
 .behavioralHealthContent {
     display: block;
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     padding: 1rem;
     width: 50%;
 }
@@ -37,6 +37,7 @@
     font-family: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
+    line-height: 3rem;
 }
 
 .behavioralHealth p {
@@ -70,5 +71,10 @@
 
       .behavioralHealth h1 {
         font-size: 2rem;
+    }
+
+    .behavioralHealthContent {
+        bottom: 10%;
+
     }
 }

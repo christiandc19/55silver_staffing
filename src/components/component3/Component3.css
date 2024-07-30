@@ -112,8 +112,17 @@
         line-height: 2.5rem;
     }
 
-
-
 }
 
+
+@media  screen and (max-width:600px) {
+    .c3-left h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .c3-btn {
+        text-align: center;
+    }
+}
 

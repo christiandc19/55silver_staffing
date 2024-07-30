@@ -11,7 +11,7 @@
   .alliedHealth:before {
     content: '';
     position: absolute;
-    background: url('../../../assets/specialties_nursing.webp') no-repeat center center/cover;
+    background: url('../../../assets/allied_health.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

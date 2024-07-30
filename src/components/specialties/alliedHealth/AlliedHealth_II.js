@@ -6,6 +6,7 @@ import Nurse from '../../../assets/male_nurse_II.webp'
 
 const AlliedHealth_II = () => {
     return (
+<>
         <div className="AlliedHealth2Container container">
 
             <div className="AlliedHealth2Text">
@@ -38,7 +39,12 @@ const AlliedHealth_II = () => {
                 <img src= {Nurse} alt="Allied Health" />
             </div>
 
+
         </div>
+
+<hr className='hrLine container'/>
+</>
+
     );
 };
 

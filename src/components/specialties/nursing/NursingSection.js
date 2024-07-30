@@ -9,7 +9,7 @@ const NursingSection = () => {
 
 <div className='nursingSection'>
       <div className="nursingSectionHeader container">
-        <h1>NURSING</h1>
+        <h1>Nursing Placement Services</h1>
         <p>At 55 Silver Healthcare Staffing, we understand the critical role that nurses play in delivering high-quality patient care. Our Nurse Placement Services are designed to provide healthcare facilities with highly skilled and compassionate nursing professionals who excel in diverse medical settings.</p><br/>
       </div>
 

@@ -53,6 +53,11 @@
     text-align: left 
 }
 
+.hrLine {
+    border-top: 1px dashed  var(--primary-color);
+    margin-top: 2rem;
+}
+
 /* Responsive layout for larger screens */
 @media screen and (max-width: 940px) {
     .AlliedHealth2Container {
@@ -67,6 +72,8 @@
         text-align: center;
     }
 
-
+    .hrLine {
+        width: 40%;
+    }
 
 }
