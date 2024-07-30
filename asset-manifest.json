@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.58499702.css",
-    "main.js": "/55silver_staffing/static/js/main.cca89ec7.js",
+    "main.css": "/55silver_staffing/static/css/main.2fb4f546.css",
+    "main.js": "/55silver_staffing/static/js/main.9b972fa7.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/55silver_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
@@ -9,34 +9,40 @@
     "static/media/pediatrician.webp": "/55silver_staffing/static/media/pediatrician.6ba3f381fa08437eaf26.webp",
     "static/media/male_nurse.webp": "/55silver_staffing/static/media/male_nurse.e476e69b64ad1569934f.webp",
     "static/media/workforce_management_hero.webp": "/55silver_staffing/static/media/workforce_management_hero.287df1429dd348c6f024.webp",
+    "static/media/male_nurse_II.webp": "/55silver_staffing/static/media/male_nurse_II.a0663da9db55d8b6a34d.webp",
+    "static/media/respiratory_section.webp": "/55silver_staffing/static/media/respiratory_section.f11216c0772dab3a40e7.webp",
     "static/media/whatwedo1.webp": "/55silver_staffing/static/media/whatwedo1.6ca2ef63472ddd0e1d5c.webp",
     "static/media/about-section-min.webp": "/55silver_staffing/static/media/about-section-min.39f78367066a326082e9.webp",
     "static/media/jobSearchHero.webp": "/55silver_staffing/static/media/jobSearchHero.10b62a775fadd9482749.webp",
     "static/media/doctors.webp": "/55silver_staffing/static/media/doctors.ea3d72e08156769361cb.webp",
     "static/media/program_family_therapy.webp": "/55silver_staffing/static/media/program_family_therapy.2933ad3f308c625bb63a.webp",
     "static/media/specialties_section_male_nurse.webp": "/55silver_staffing/static/media/specialties_section_male_nurse.0a75cb1a044986f75241.webp",
+    "static/media/allied_health.webp": "/55silver_staffing/static/media/allied_health.27f1e7d0929cb28d9f3d.webp",
     "static/media/search_jobs_hero.webp": "/55silver_staffing/static/media/search_jobs_hero.5886a23f13742803cafa.webp",
+    "static/media/correctional_health_section.webp": "/55silver_staffing/static/media/correctional_health_section.c8953c6d45b421693c94.webp",
+    "static/media/locum_tenens_hero.webp": "/55silver_staffing/static/media/locum_tenens_hero.ced7a10ec6a8d0379f1a.webp",
     "static/media/specialties_section_behavioral_health.webp": "/55silver_staffing/static/media/specialties_section_behavioral_health.2912075f79e8b9e6a151.webp",
     "static/media/nav-logo.png": "/55silver_staffing/static/media/nav-logo.b446261424cde831761e.png",
     "static/media/menu-bg-contact.webp": "/55silver_staffing/static/media/menu-bg-contact.92256e5ac1ced6e7c227.webp",
     "static/media/program_op.webp": "/55silver_staffing/static/media/program_op.0f3ddbea99652791f791.webp",
     "static/media/specialties_nursing.webp": "/55silver_staffing/static/media/specialties_nursing.cdd98bce1a559f7dd8b6.webp",
     "static/media/program_case_management.webp": "/55silver_staffing/static/media/program_case_management.5bc407e4ba90e65222ec.webp",
+    "static/media/respiratory_hero.webp": "/55silver_staffing/static/media/respiratory_hero.c80c2a9288d5d0631a69.webp",
     "static/media/specialties_behavioral_health.webp": "/55silver_staffing/static/media/specialties_behavioral_health.7005cfb781ffb06fa058.webp",
     "static/media/menu-bg-about-min.webp": "/55silver_staffing/static/media/menu-bg-about-min.c86f63f91ca2ad2c1762.webp",
     "static/media/nursing.webp": "/55silver_staffing/static/media/nursing.593772108c390f0a1c0f.webp",
     "static/media/section-bg2.webp": "/55silver_staffing/static/media/section-bg2.c295f6a1753a7c41d069.webp",
     "static/media/program_crisis_intervention.webp": "/55silver_staffing/static/media/program_crisis_intervention.cce765fad6be8ebe99c3.webp",
     "static/media/behavioral_health.webp": "/55silver_staffing/static/media/behavioral_health.c2c02671a06a15bde298.webp",
+    "static/media/correctional_health_hero.webp": "/55silver_staffing/static/media/correctional_health_hero.ba4d2d1f0df36ce4ad53.webp",
     "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
-    "static/media/male_nurse_II.webp": "/55silver_staffing/static/media/male_nurse_II.75b8225fbcb23c95ecf1.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.58499702.css.map": "/55silver_staffing/static/css/main.58499702.css.map",
-    "main.cca89ec7.js.map": "/55silver_staffing/static/js/main.cca89ec7.js.map"
+    "main.2fb4f546.css.map": "/55silver_staffing/static/css/main.2fb4f546.css.map",
+    "main.9b972fa7.js.map": "/55silver_staffing/static/js/main.9b972fa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.58499702.css",
-    "static/js/main.cca89ec7.js"
+    "static/css/main.2fb4f546.css",
+    "static/js/main.9b972fa7.js"
   ]
 }
