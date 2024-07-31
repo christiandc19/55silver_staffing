@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.dc3f2f91.css",
-    "main.js": "/55silver_staffing/static/js/main.737abca3.js",
+    "main.css": "/55silver_staffing/static/css/main.cdeb87fb.css",
+    "main.js": "/55silver_staffing/static/js/main.cb9bd7a9.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/about_us_section.webp": "/55silver_staffing/static/media/about_us_section.44e7dbbf2dd38f424c0a.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
@@ -16,6 +16,7 @@
     "static/media/missionHome.webp": "/55silver_staffing/static/media/missionHome.7b7ef8033f4619cc2d95.webp",
     "static/media/jobSearchHero.webp": "/55silver_staffing/static/media/jobSearchHero.10b62a775fadd9482749.webp",
     "static/media/doctors.webp": "/55silver_staffing/static/media/doctors.ea3d72e08156769361cb.webp",
+    "static/media/group_nurses.webp": "/55silver_staffing/static/media/group_nurses.4c3bce1e8b51995f409a.webp",
     "static/media/program_family_therapy.webp": "/55silver_staffing/static/media/program_family_therapy.2933ad3f308c625bb63a.webp",
     "static/media/specialties_section_male_nurse.webp": "/55silver_staffing/static/media/specialties_section_male_nurse.0a75cb1a044986f75241.webp",
     "static/media/allied_health.webp": "/55silver_staffing/static/media/allied_health.27f1e7d0929cb28d9f3d.webp",
@@ -37,14 +38,13 @@
     "static/media/program_crisis_intervention.webp": "/55silver_staffing/static/media/program_crisis_intervention.cce765fad6be8ebe99c3.webp",
     "static/media/behavioral_health.webp": "/55silver_staffing/static/media/behavioral_health.c2c02671a06a15bde298.webp",
     "static/media/correctional_health_hero.webp": "/55silver_staffing/static/media/correctional_health_hero.ba4d2d1f0df36ce4ad53.webp",
-    "static/media/joint_commission_logo.webp": "/55silver_staffing/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.dc3f2f91.css.map": "/55silver_staffing/static/css/main.dc3f2f91.css.map",
-    "main.737abca3.js.map": "/55silver_staffing/static/js/main.737abca3.js.map"
+    "main.cdeb87fb.css.map": "/55silver_staffing/static/css/main.cdeb87fb.css.map",
+    "main.cb9bd7a9.js.map": "/55silver_staffing/static/js/main.cb9bd7a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc3f2f91.css",
-    "static/js/main.737abca3.js"
+    "static/css/main.cdeb87fb.css",
+    "static/js/main.cb9bd7a9.js"
   ]
 }
