@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/55silver_staffing/static/css/main.cdeb87fb.css",
-    "main.js": "/55silver_staffing/static/js/main.cb9bd7a9.js",
+    "main.css": "/55silver_staffing/static/css/main.d5959a21.css",
+    "main.js": "/55silver_staffing/static/js/main.994be712.js",
     "static/media/female_nurse.webp": "/55silver_staffing/static/media/female_nurse.b5a6acc3e9430e16e3bc.webp",
     "static/media/about_us_section.webp": "/55silver_staffing/static/media/about_us_section.44e7dbbf2dd38f424c0a.webp",
     "static/media/female_nurse_2.webp": "/55silver_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
@@ -40,11 +40,11 @@
     "static/media/correctional_health_hero.webp": "/55silver_staffing/static/media/correctional_health_hero.ba4d2d1f0df36ce4ad53.webp",
     "static/media/section-bg.webp": "/55silver_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/55silver_staffing/index.html",
-    "main.cdeb87fb.css.map": "/55silver_staffing/static/css/main.cdeb87fb.css.map",
-    "main.cb9bd7a9.js.map": "/55silver_staffing/static/js/main.cb9bd7a9.js.map"
+    "main.d5959a21.css.map": "/55silver_staffing/static/css/main.d5959a21.css.map",
+    "main.994be712.js.map": "/55silver_staffing/static/js/main.994be712.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdeb87fb.css",
-    "static/js/main.cb9bd7a9.js"
+    "static/css/main.d5959a21.css",
+    "static/js/main.994be712.js"
   ]
 }
