@@ -10,7 +10,7 @@
       .section-bg:before {
         content: '';
         position: absolute;
-        background: url('../../assets/section-bg2.webp') no-repeat center center/cover;
+        background: url('../../assets/section-bg3.webp') no-repeat center center/cover;
         height: 100%;
         width: 100%;
         z-index: -1;
@@ -117,7 +117,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgb(31, 133, 192); /* Change color as needed */
+    background-color: rgb(23, 102, 121); /* Change color as needed */
     color: #ffffff;
     font-size: 24px;
   }
@@ -128,7 +128,7 @@
   }
 
   .heroBtn button {
-    background-color: rgb(31, 133, 192); /* Change color as needed */
+    background-color: rgb(23, 102, 121); /* Change color as needed */
     padding: .8rem 1.5rem;
     background-color: (31, 133, 192); /* Change color as needed */
     color: #ffffff;

@@ -5,8 +5,7 @@
   width: 100%;
   height: auto;
   z-index: 10;
-  padding: 1rem 0;
-  background-color: rgba(23, 102, 121, 0.507);
+  background-color: rgb(23, 102, 121);
   z-index: 9999;
   }
   
