@@ -81,7 +81,7 @@ const ContactForm = () => {
                 <div className="contact-cards-container">
                     <div className="get_form_inner2 card1">
                         <h2>CALL US</h2>
-                        <p><AiOutlinePhone /><a href="tel:2135844445"> +1 (213) 584-4445</a></p>
+                        <p><AiOutlinePhone /><a href="tel:3105267505"> +1 (310) 526-7505</a></p>
                     </div>
 
                     <div className="get_form_inner2 card2">

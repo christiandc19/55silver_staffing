@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from '../../assets/nav-logo.png'
 import "./FooterStyles.css";
-import JointCommission from "../../assets/joint_commission_logo.webp";
+// import JointCommission from "../../assets/joint_commission_logo.webp";
 
 import { Link as LinkRoll } from "react-scroll";
 
@@ -81,12 +81,6 @@ const Footer = () => {
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/workforce-management">
-                    <p>Workforce Management</p>
-                  </Link>
-                </LinkRoll>
-
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                   <Link to="/job-search">
                     <p>Job Search</p>
                   </Link>
@@ -98,24 +92,7 @@ const Footer = () => {
 
 
 
-          <div className="certification">
 
-            <div className="certificationLogo">
-                <h3>55 Silver Healthcare Staffing is accredited by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
-                
-                    <div className='certificationLogoImage'>
-                        <img
-                        src={JointCommission}
-                        alt="Joint Commission Logo"
-                        loading="lazy"
-                        />
-                    </div>
-              </div>
-        </div>
-
-
-
-          <hr />
           
           <p className="copyright">
             <p>

@@ -47,7 +47,9 @@ const JobSearch = () => {
 
   return (
     <>
+
     <div className='JobSearchSection-bg'>
+
       <div className="jobSearch container" name="jobsearch">
         <div className="jobSearchHeader">
           <h1>Search Jobs</h1>

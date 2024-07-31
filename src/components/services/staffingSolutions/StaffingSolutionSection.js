@@ -1,5 +1,9 @@
 import React from 'react';
 import './StaffingSolutionSection.css';  // Import the CSS file
+import { Link as LinkRoll } from "react-scroll";
+import { Link } from 'react-router-dom';
+
+
 import MedicalStaff from '../../../assets/medical_staff.webp'
 const StaffingSolutionsSection = () => {
     return (
@@ -16,6 +20,14 @@ const StaffingSolutionsSection = () => {
                         Our team of recruitment experts will work closely with you to understand your requirements and 
                         provide tailored staffing solutions that fit your organizational needs.
                     </p>
+                    <LinkRoll activeClass="active" to='top' spy={true} smooth={true} duration={500}>
+                    <Link to="/contact-us" >
+                            <div className='StaffingSolutionBtn '>
+                                <button>Request Talents</button>
+                            </div>
+                    </Link>
+                    </LinkRoll>
+
                 </div>
                 <div className="image-container">
                     <img src={MedicalStaff} alt="Staffing Solutions" loading='lazy'/>

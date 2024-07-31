@@ -40,7 +40,7 @@ const HeroPage = () => {
       <div className="hero-text">
       <h1>55 SILVER</h1>
       <h2>Healthcare Staffing</h2>
-      <h3>"Where Healthcare Professionals and Opportunities Meet"</h3>
+      <h3>Where Healthcare Professionals and Opportunities Meet</h3>
       <hr/>
       <p>At 55 Silver Healthcare Staffing, we specialize in connecting healthcare facilities with highly qualified professionals, ensuring optimal patient care and operational efficiency. Our comprehensive staffing solutions cover a wide range of medical and allied health disciplines, tailored to meet the unique needs of each client.</p>
       <div className='heroIcons'>

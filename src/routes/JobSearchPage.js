@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
-import JobSearch from '../components/jobSearch/JobSearch'
 import JobSearchHero from '../components/jobSearch/JobSearchHero'
+import Carreer from '../components/career/CareerSection'
 
 const JobSearchPage = () => {
     return (
         <>
            <JobSearchHero />
-           <JobSearch />
+           <Carreer />
            <Footer />
         </>
     )

@@ -21,12 +21,13 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 5rem 1rem;
+    padding-top: 3rem;
 }
 
 .c3-left {
-    width: 50%;
+    width: 100%;
     margin: auto;
+    padding: 0 1rem;
 }
 
 .c3-left h1 {
@@ -55,19 +56,19 @@
 }
 
 .c3-right {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
 .c3-right-img {
     width: 100%;
     margin: auto;
-    padding: .5rem;
 }
 
 .c3-right-img img {
     width: 100%;
     border-radius: 5px;
+    display: block;
 }
 
 
@@ -79,6 +80,10 @@
     background-color: #04768a8e;
 }
 
+.StaffingSolutionBtn {
+    text-align: left;
+    padding: 1rem 0;
+}
 
 
 @media  screen and (max-width:940px) {

@@ -94,11 +94,11 @@ const Navbar = () => {
                 Staffing Solutions
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/workforce-management" className="nav-links" onClick={closeMenu}>
                 Workforce Management
               </Link>
-            </li>
+            </li> */}
           </ul>
         </li>
 
