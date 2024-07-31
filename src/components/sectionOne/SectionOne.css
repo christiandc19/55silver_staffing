@@ -22,6 +22,7 @@
     display: flex;
     height: auto;
     justify-content: center;
+    gap: 3rem;
 }
 
 .hero-text {
@@ -136,8 +137,12 @@
   
 
 @media screen and (max-width: 940px) {
+
+
     .hero-container {
         flex-wrap: wrap;
+        gap: 0rem;
+
     }
 
     .hero-text {
@@ -173,6 +178,7 @@
         margin: 1rem 0 0 0;
         padding: 0 1rem;
       }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -190,4 +196,11 @@
 .hero-text p {
   font-size: 14px;
 }
+
+.image-slider {
+  width: 100%;
+  position: relative;
+  height: 60dvh;
+}
+
 }

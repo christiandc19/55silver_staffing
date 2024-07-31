@@ -24,7 +24,7 @@ const HeroPage = () => {
   return (
     <>
     <div className='section-bg'>
-    <div className="hero-container">
+    <div className="hero-container container">
 
       <div className="image-slider">
         {images.map((image, index) => (

@@ -4,10 +4,10 @@
   justify-content: space-around;
   width: 100%;
   height: auto;
-  position: absolute;
   z-index: 10;
   padding: 1rem 0;
   background-color: rgba(23, 102, 121, 0.507);
+  z-index: 9999;
   }
   
   .navbar .navbar-container {
@@ -26,7 +26,8 @@
 
   .navbar-logo {
     width: 250px;
-    z-index: 2;
+    z-index: 99999999;
+
   }
   
   .navbar-logo img {
@@ -108,7 +109,7 @@
       font-size: 1.8rem;
       cursor: pointer;
       color: #fff;
-      z-index: 99999;
+      z-index: 99999999;
     }
   
     .navbar .nav-menu {
@@ -121,6 +122,7 @@
       justify-content: center;
       background: var(--primary-color);
       transition: 0.5s ease-in;
+      z-index: 9999999;
     }
 
     .navbar .dropdown-menu {
