@@ -64,42 +64,14 @@ const Navbar = () => {
                 Allied Health
               </Link>
             </li>
-            <li>
-              <Link to="/locum-tenens" className="nav-links" onClick={closeMenu}>
-                Locum Tenens
-              </Link>
-            </li>
-            <li>
-              <Link to="/respiratory" className="nav-links" onClick={closeMenu}>
-                Respiratory
-              </Link>
-            </li>
-
-            <li>
-              <Link to="/correctional-health" className="nav-links" onClick={closeMenu}>
-                Correctional Health
-              </Link>
-            </li>
-
           </ul>
         </li>
-        <li className="nav-item dropdown">
-          <span className="nav-links" onClick={toggleMenu}>
-            Services <span className='subArrow'><FaAngleDown />
-            </span>
-          </span>
-          <ul className="dropdown-menu">
-            <li>
-              <Link to="/staffing-solutions" className="nav-links" onClick={closeMenu}>
-                Staffing Solutions
-              </Link>
-            </li>
-            {/* <li>
-              <Link to="/workforce-management" className="nav-links" onClick={closeMenu}>
-                Workforce Management
-              </Link>
-            </li> */}
-          </ul>
+
+
+        <li className="nav-item">
+          <Link to="/staffing-solutions" className="nav-links" onClick={closeMenu}>
+          Staffing Solutions
+          </Link>
         </li>
 
         <li className="nav-item">

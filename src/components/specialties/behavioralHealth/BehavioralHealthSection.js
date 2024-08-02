@@ -23,10 +23,10 @@ const BehavioralHealthSection = () => {
                 <li>Psychiatrists</li>
                 <li>Psychologists</li>
                 <li>Licensed Clinical Social Workers (LCSWs)</li>
-                <li>Licensed Professional Counselors (LPCs)</li>
+                <li>Licensed Professional Clinical Counselor (LPCCs)</li>
                 <li>Marriage and Family Therapists (MFTs)</li>
                 <li>Behavioral Health Technicians</li>
-                <li>Pediatric Nurses</li>
+                <li>Nurses</li>
                 <li>Substance Abuse Counselors</li>
               </ul>
             </p>

@@ -23,15 +23,12 @@ const AlliedHealth_II = () => {
 
                 <h1>Roles We Staff</h1>
                 <ul>
-                    <li>Medical Technologists</li>
-                    <li>Radiologic Technicians</li>
-                    <li>Respiratory Therapists</li>
-                    <li>Physical Therapists</li>
-                    <li>Occupational Therapists</li>
-                    <li>Speech-Language Pathologists</li>
-                    <li>Dietitians and Nutritionists</li>
-                    <li>Pharmacy Technicians</li>
-
+                    <li>Behavioral Health Technicians</li>
+                    <li>Medication Technicians</li>
+                    <li>Support Staff</li>
+                    <li>Group Monitors</li>
+                    <li>Group Facilitators</li>
+                    <li>Drug and Alcohol Counselors</li>
                 </ul>
             </div>
 

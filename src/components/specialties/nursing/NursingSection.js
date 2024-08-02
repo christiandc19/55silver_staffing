@@ -16,7 +16,7 @@ const NursingSection = () => {
       <div className='nursingSectionFlex container'>
         <div className='nursingSectionLeft'>
             <h1>Tailored Nurse Staffing Solutions:</h1>
-            <p>We offer customized nurse staffing solutions to meet the unique needs of each healthcare facility. Whether you require temporary nurses for short-term assignments, permanent placements for long-term stability, or travel nurses to cover staffing shortages, 55 Silver has you covered.</p>
+            <p>We offer customized nurse staffing solutions to meet the unique needs of each healthcare facility. Whether you require temporary nurses for short-term assignments, permanent placements for long-term stability.</p>
             <h1>Rigorous Selection Process:</h1>
             <p>Our comprehensive vetting process ensures that every nurse we place meets the highest standards of competence and professionalism. We thoroughly assess each candidate’s qualifications, experience, and dedication to patient care, ensuring they are a perfect fit for your facility.</p>
 
@@ -25,13 +25,8 @@ const NursingSection = () => {
             <p>
               <ul>
                 <li>Registered Nurses (RNs)</li>
-                <li>Licensed Practical Nurses (LPNs)</li>
-                <li>Certified Nursing Assistants (CNAs)</li>
+                <li>Licensed Vocational Nurses (LVNs)</li>
                 <li>Nurse Practitioners (NPs)</li>
-                <li>Critical Care Nurses</li>
-                <li>Emergency Room Nurses</li>
-                <li>Pediatric Nurses</li>
-                <li>Surgical Nurses</li>
               </ul>
             </p>
 
