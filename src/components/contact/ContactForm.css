@@ -17,10 +17,6 @@
   opacity: .03;
 }
 
-
-
-
-
   .get_form_inner {
     display: block;
     padding: 3rem 3rem ;
@@ -135,24 +131,16 @@ input {
     }
 
 
-
-.textarea2 textarea {
-  border: none;
-  color: rgb(53, 82, 42);
-  text-align: center;
+.disclaimer p {
+  padding: 1rem 0;
+  font-size: 12px;
 }
 
-.hidden {
-  display: none;
-  margin-bottom: 2rem;
-  color: white;
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  z-index: 2;
+.disclaimer span {
+  padding: 1rem 0;
+  font-size: 12px;
+  color: var(--primary-color);
 }
-
-  
   
 
   @media screen and (max-width: 940px) {

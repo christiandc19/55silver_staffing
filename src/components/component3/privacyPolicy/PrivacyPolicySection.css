@@ -1,0 +1,23 @@
+.privacyPolicySection {
+  padding: 5rem 1rem;
+}
+
+.privacyPolicyBullet {
+  padding: 1rem 0;
+}
+
+.privacyPolicyDate p {
+  color: var(--primary-color);
+}
+
+.privacyPolicyBullet h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: .5rem 0;
+}
+
+.privacyPolicyBullet h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: .5rem 0;
+}
