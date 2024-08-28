@@ -6,38 +6,16 @@ import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
     const form = useRef();
-    const [feedbackVisible, setFeedbackVisible] = useState(false);
+    const [buttonText, setButtonText] = useState("Submit");
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // Create a FormData object
-        const formData = new FormData(form.current);
-
-        // Append the file to the FormData object
-        const fileInput = document.querySelector('input[type="file"]');
-        if (fileInput.files.length > 0) {
-            formData.append('attachment', fileInput.files[0]);
-        }
-
-        // Convert FormData to a plain object
-        const formDataObj = Object.fromEntries(formData.entries());
-
-        // Debug: Log form data
-        for (let [key, value] of Object.entries(formDataObj)) {
-            console.log(`${key}: ${value}`);
-        }
-
-        // Popup message after send button is clicked
-        setFeedbackVisible(true);
-        setTimeout(() => {
-            setFeedbackVisible(false);
-        }, 3000);
-
         // Send email using EmailJS
-        emailjs.send('service_hsunksm', 'template_rxc8sbg', formDataObj, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm("service_bdfl0ie", "template_i8qb2st", form.current, 'CLcHWAKSemVMd1_sU')
             .then((result) => {
                 console.log(result.text);
+                setButtonText("Message Sent");
             }, (error) => {
                 console.log(error.text);
             });
@@ -57,22 +35,53 @@ const ContactForm = () => {
                             </div>
                             <form ref={form} onSubmit={sendEmail} encType="multipart/form-data">
                                 <div className="inputs">
-                                    <input type="text" name="name" placeholder="Your Name" required /> <br />
-                                    <input type="email" name="email" placeholder="Your Email" required /> <br />
-                                    <input type="tel" name="phone" placeholder="Your Phone" required /> <br />
-                                    <input type="text" name="subject" placeholder="Subject" required /> <br />
+                                    <input 
+                                        type="text" 
+                                        name="name" 
+                                        placeholder="Your Name" 
+                                        required 
+                                        pattern="[A-Za-z\s]+" 
+                                        title="Name should only contain letters." 
+                                    /> 
+                                    <br />
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        placeholder="Your Email" 
+                                        required 
+                                        title="Please enter a valid email address." 
+                                    /> 
+                                    <br />
+                                    <input 
+                                        type="tel" 
+                                        name="phone" 
+                                        placeholder="Your Phone" 
+                                        required 
+                                        pattern="\+?\d{1,4}[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}" 
+                                        title="Phone number should be in valid format, e.g., +1 (123) 456-7890" 
+                                    /> 
+                                    <br />
+                                    <input 
+                                        type="text" 
+                                        name="subject" 
+                                        placeholder="Subject" 
+                                        required 
+                                    /> 
+                                    <br />
                                 </div>
                                 <div>
-                                    <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
-                                    {/* <input type="file" name="attachment" /> */}
-                                    <input type="submit" value="Submit" />
+                                    <textarea 
+                                        name="message" 
+                                        placeholder="How can we help?" 
+                                        cols="30" 
+                                        rows="10" 
+                                        required 
+                                    ></textarea>
+                                    <input 
+                                        type="submit" 
+                                        value={buttonText} 
+                                    />
                                 </div>
-
-                                {feedbackVisible && (
-                                    <div className="textarea2 feedback">
-                                        <textarea name="message2" cols="30" rows="3" readOnly>Message Sent to 55 Silver!</textarea>
-                                    </div>
-                                )}
                             </form>
                         </div>
                     </div>
