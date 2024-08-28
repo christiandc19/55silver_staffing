@@ -13,7 +13,7 @@ const PrivacyPolicySection = () => {
                     <p>Effective Date: June 26, 2024</p>
                     </div>
                     <br/>
-                    <p><b>55 Silver LLC</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.benouxagency.com (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
+                    <p><b>55 Silver LLC</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.55silver.biz (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
             </div>
 
             <div className='privacyPolicyBullet'>
