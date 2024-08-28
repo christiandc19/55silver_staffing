@@ -32,11 +32,6 @@ const Footer = () => {
 
             <div className="footerFlexItem">
                 <h1>COMPANY</h1>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/">
-                    <p>Home</p>
-                  </Link>
-                </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                   <Link to="/about-us">
@@ -49,6 +44,13 @@ const Footer = () => {
                     <p>Contact Us</p>
                   </Link>
                 </LinkRoll>
+
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/privacy-policy">
+                    <p>Privacy Policy</p>
+                  </Link>
+                </LinkRoll>
+
             </div>
 
             <div className="footerFlexItem">
