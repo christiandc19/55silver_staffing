@@ -27,7 +27,6 @@ const SectionFive = () => {
                   <ul>
                     <li>Nurses</li>
                     <li>Physicians</li>
-                    <li>TMS Technicians</li>
                     <li>Behavioral Health Technicians</li>
                     <li>Program Directors</li>
                     <li>Counselors</li>
