@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
-
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 import './ContactForm.css';
 import emailjs from 'emailjs-com';
@@ -14,13 +13,17 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        setButtonText("Sending...");
+
         // Send email using EmailJS
         emailjs.sendForm("service_bdfl0ie", "template_i8qb2st", form.current, 'CLcHWAKSemVMd1_sU')
             .then((result) => {
                 console.log(result.text);
                 setButtonText("Message Sent");
+                setTimeout(() => setButtonText("Submit"), 3000); // Reset button after 3 seconds
             }, (error) => {
                 console.log(error.text);
+                setButtonText("Submit");
             });
 
         e.target.reset();
@@ -81,15 +84,12 @@ const ContactForm = () => {
                                         required 
                                     ></textarea>
 
-
-                <div className="disclaimer">
-                  <p>55 Silver LLC needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
-                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
-                  </LinkRoll></p>
-                </div>
-
-
+                                    <div className="disclaimer">
+                                        <p>55 Silver LLC needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
+                                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                            <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
+                                        </LinkRoll></p>
+                                    </div>
 
                                     <input 
                                         type="submit" 

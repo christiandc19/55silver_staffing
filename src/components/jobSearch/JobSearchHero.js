@@ -11,8 +11,8 @@ const JobSearchHero = () => {
 <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>ABOUT US - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/about" />
+            <title>SEARCH JOBS - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/job-search" />
         </Helmet>
 
         <div className='jobSearchHero'>

@@ -1,12 +1,19 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import { Link as LinkRoll } from "react-scroll";
+import {Helmet} from "react-helmet";
 
 import './Nursing.css'
 
 
 const Nursing = () => {
     return (
+        <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>NURSING - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/nursing" />
+        </Helmet>
         <div className='nursing'>
 
                 <div className="nursingContent">
@@ -22,6 +29,7 @@ const Nursing = () => {
                     </Zoom>
             </div>
         </div>
+        </>
     )
 }
 

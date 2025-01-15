@@ -1,10 +1,17 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import './StaffingSolution.css'
+import {Helmet} from "react-helmet";
 
 
 const StaffingSolution = () => {
     return (
+        <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>STAFFING SOLUTIONS - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/staffing-solutions" />
+        </Helmet>
         <div className='staffingSolution'>
 
                 <div className="staffingSolutionContent">
@@ -14,6 +21,7 @@ const StaffingSolution = () => {
                     </Zoom>
             </div>
         </div>
+        </>
     )
 }
 

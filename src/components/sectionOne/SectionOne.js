@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from "react-scroll";
 import { FiPhone } from "react-icons/fi";
 import { TfiEmail } from "react-icons/tfi";
+import {Helmet} from "react-helmet";
 
 const HeroPage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -23,6 +24,13 @@ const HeroPage = () => {
 
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>HOME - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/" />
+        </Helmet>
+        
     <div className='section-bg'>
     <div className="hero-container container">
 

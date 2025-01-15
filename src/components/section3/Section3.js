@@ -65,7 +65,7 @@ const Section3 = () => {
                   <p>55 Silver Healthcare Staffing offers tailored solutions for Allied Health staffing, connecting healthcare facilities with skilled professionals in fields like radiology, physical therapy, and medical laboratory sciences to enhance patient care and efficiency.</p>
                   <div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/outpatient-program">
+                      <Link to="/allied-health">
                         <button>Learn More</button>
                       </Link>
                     </LinkRoll>

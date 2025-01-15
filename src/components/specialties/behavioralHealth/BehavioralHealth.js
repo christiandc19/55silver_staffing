@@ -1,12 +1,19 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import { Link as LinkRoll } from "react-scroll";
+import {Helmet} from "react-helmet";
 
 import './BehavioralHealth.css'
 
 
 const BehavioralHealth = () => {
     return (
+        <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>BEHAVIORAL HEALTH - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/behavioral-health" />
+        </Helmet>
         <div className='behavioralHealth'>
 
                 <div className="behavioralHealthContent">
@@ -21,6 +28,7 @@ const BehavioralHealth = () => {
                     </Zoom>
             </div>
         </div>
+        </>
     )
 }
 

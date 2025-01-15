@@ -1,11 +1,18 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
+import {Helmet} from "react-helmet";
 
 import './AlliedHealth.css'
 
 
 const AlliedHealth = () => {
     return (
+        <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>ALLIED HEALTH - 55 SILVER</title>
+            <link rel="canonical" href="https://https://55silver.biz/allied-health" />
+        </Helmet>
         <div className='alliedHealth'>
 
                 <div className="alliedHealthContent">
@@ -15,6 +22,7 @@ const AlliedHealth = () => {
                     </Zoom>
             </div>
         </div>
+        </>
     )
 }
 
