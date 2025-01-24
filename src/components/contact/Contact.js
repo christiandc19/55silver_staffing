@@ -18,7 +18,7 @@ const Contact = () => {
                     <h1>HAVE SOME QUESTIONS?</h1>
                   <p>Talk to a member of our healthcare recruiting experts. </p>
      
-                  <h2> +1  (310) 526-7505 </h2>
+                  {/* <h2> +1  (310) 526-7505 </h2> */}
 
             </div>
      </div>

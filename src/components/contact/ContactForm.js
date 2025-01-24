@@ -102,10 +102,10 @@ const ContactForm = () => {
                 </section>
 
                 <div className="contact-cards-container">
-                    <div className="get_form_inner2 card1">
+                    {/* <div className="get_form_inner2 card1">
                         <h2>CALL US</h2>
                         <p><AiOutlinePhone /><a href="tel:3105267505"> +1 (310) 526-7505</a></p>
-                    </div>
+                    </div> */}
 
                     <div className="get_form_inner2 card2">
                         <h2>EMAIL</h2>
