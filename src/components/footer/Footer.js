@@ -98,7 +98,7 @@ const Footer = () => {
           
           <p className="copyright">
             <p>
-              &copy; 2022 55 Silver Healthcare Staffing LLC. All rights
+              &copy; 2025 55 Silver Healthcare Staffing LLC. All rights
               reserved
             </p>
           </p>
