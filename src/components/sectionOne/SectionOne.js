@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './SectionOne.css';
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from "react-scroll";
-import { FiPhone } from "react-icons/fi";
+// import { FiPhone } from "react-icons/fi";
 import { TfiEmail } from "react-icons/tfi";
 import {Helmet} from "react-helmet";
 
@@ -60,10 +60,10 @@ const HeroPage = () => {
                     </Link>
                 </LinkRoll>
 
-                <a href="tel:3237920502">       
+                {/* <a href="tel:3237920502">       
                 <div className='heroIcon heroIconPhone moving-icon'>
                     <FiPhone />
-                </div></a>
+                </div></a> */}
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to='/contact-us'>
                 <div className='heroIcon heroIconPhone icon-container'>
