@@ -12,8 +12,8 @@ const About = () => {
         <>
                 <Helmet>
                 <meta charSet="utf-8" />
-                <title>ABOUT US - 55 SILVER</title>
-                <link rel="canonical" href="https://https://55silver.biz/about-us" />
+                <title>About Us - 55 Silver</title>
+                <link rel="canonical" href="https://55silver.biz/about-us" />
                 </Helmet>
             <div className='about main-menu'>
                         <div className="about-content">

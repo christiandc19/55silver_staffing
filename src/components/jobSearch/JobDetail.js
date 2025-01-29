@@ -6,6 +6,7 @@ import { IoIosSearch } from "react-icons/io";
 import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 import emailjs from 'emailjs-com';
+import {Helmet} from "react-helmet";
 
 import Nurse from '../../assets/male_nurse.webp'
 
@@ -86,6 +87,13 @@ const handleSubmit = (e) => {
   }
 
   return (
+    <>
+    <Helmet>
+      <meta charSet="utf-8" />
+        <title>Search Jobs - 55 Silver</title>
+        <link rel="canonical" href="https://55silver.biz/job-search" />
+      </Helmet>
+
     <div className='jobDetail'>
 
     <div className='jobDetailFlex'>
@@ -199,7 +207,7 @@ const handleSubmit = (e) => {
     </div>
 
 
-
+    </>
   );
 };
 

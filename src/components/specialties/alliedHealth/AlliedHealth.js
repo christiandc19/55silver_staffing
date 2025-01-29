@@ -10,8 +10,8 @@ const AlliedHealth = () => {
         <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>ALLIED HEALTH - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/allied-health" />
+            <title>Allied Health - 55 SILVER</title>
+            <link rel="canonical" href="https://55silver.biz/allied-health" />
         </Helmet>
         <div className='alliedHealth'>
 

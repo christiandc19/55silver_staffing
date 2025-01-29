@@ -27,8 +27,8 @@ const HeroPage = () => {
 
         <Helmet>
             <meta charSet="utf-8" />
-            <title>HOME - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/" />
+            <title>Home - 55 Silver</title>
+            <link rel="canonical" href="https://55silver.biz/" />
         </Helmet>
         
     <div className='section-bg'>

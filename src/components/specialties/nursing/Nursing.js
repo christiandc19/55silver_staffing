@@ -11,8 +11,8 @@ const Nursing = () => {
         <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>NURSING - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/nursing" />
+            <title>Nursing - 55 Silver</title>
+            <link rel="canonical" href="https://55silver.biz/nursing" />
         </Helmet>
         <div className='nursing'>
 

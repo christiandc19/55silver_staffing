@@ -11,8 +11,8 @@ const BehavioralHealth = () => {
         <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>BEHAVIORAL HEALTH - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/behavioral-health" />
+            <title>Behavioral Health - 55 Silver</title>
+            <link rel="canonical" href="https://55silver.biz/behavioral-health" />
         </Helmet>
         <div className='behavioralHealth'>
 

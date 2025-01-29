@@ -9,8 +9,8 @@ const Contact = () => {
       <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>CONTACT US - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/contact" />
+            <title>Contact Us - 55 Silver</title>
+            <link rel="canonical" href="https://55silver.biz/contact" />
         </Helmet>
 
       <div className='contact-hero'>

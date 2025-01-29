@@ -70,7 +70,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;    
-    background: var(--primary-color);
+    background: rgb(23, 102, 121);
     list-style: none;
     padding: 0;
     width: max-content;

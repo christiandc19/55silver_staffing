@@ -12,8 +12,8 @@ const NathanHero = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Nathan Young - 55 SILVER</title>
-                <link rel="canonical" href="https://https://55silver.biz/nathan-young" />
+                <title>Nathan Young - 55 Silver</title>
+                <link rel="canonical" href="https://55silver.biz/nathan-young" />
             </Helmet>
 
             <div className='nathan-hero container'>

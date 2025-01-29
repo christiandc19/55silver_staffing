@@ -9,8 +9,8 @@ const StaffingSolution = () => {
         <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>STAFFING SOLUTIONS - 55 SILVER</title>
-            <link rel="canonical" href="https://https://55silver.biz/staffing-solutions" />
+            <title>Staffing Solutions - 55 Silver</title>
+            <link rel="canonical" href="https://55silver.biz/staffing-solutions" />
         </Helmet>
         <div className='staffingSolution'>
 
