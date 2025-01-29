@@ -7,6 +7,9 @@ import JobSearch from './routes/JobSearchPage';
 import About from './routes/AboutPage';
 import JobDetail from './routes/JobDetailsPage';
 import Contact from './routes/ContactPage';
+import Nathan from './routes/NathanPage';
+
+
 
 // SPECIALTIES
 import Nursing from './routes/NursingPage';
@@ -25,6 +28,7 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/job-search" element={<JobSearch />} />
         <Route exact path="/about-us" element={<About />} />
+        <Route exact path="/nathan-young" element={<Nathan />} />
         <Route exact path="/contact-us" element={<Contact />} />
         <Route exact path="/job/:id" element={<JobDetail />} />
         
