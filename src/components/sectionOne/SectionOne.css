@@ -31,6 +31,10 @@
     padding: 0 1rem;
 }
 
+.hero-text span {
+  color: black;
+}
+
 .hero-text h1 {
     font-size: 3rem;
     color: rgba(23, 102, 121, 0.877);
@@ -145,15 +149,18 @@
 
     }
 
-    .hero-text {
-        width: 100%;
-        margin: 0 auto;
-    }
 
     .image-slider {
         width: 100%;
         position: relative;
-    }
+      }
+
+      .hero-text {
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
 
     .hero-text h1 {
         text-align: center;
@@ -165,19 +172,10 @@
         text-align: center;
     }
 
-    .hero-text { 
-        text-align: center;
-    }
-
     .heroIcons {
         justify-content: center;
       }
-      
-      .hero-text {
-        width: 100%;
-        margin: 1rem 0 0 0;
-        padding: 0 1rem;
-      }
+    
 
 }
 

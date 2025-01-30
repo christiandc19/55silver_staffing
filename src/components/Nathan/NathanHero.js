@@ -18,7 +18,7 @@ const NathanHero = () => {
 
             <div className='nathan-hero container'>
                         <div className="nathan-hero-content">
-                                <Zoom duration={3000}>
+                                <Zoom duration={1500}>
                                         <h1>Nathan Young</h1>
                                 </Zoom>
                         </div>

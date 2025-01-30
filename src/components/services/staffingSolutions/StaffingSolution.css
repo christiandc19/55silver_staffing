@@ -53,10 +53,6 @@
     font-size: 2rem;
 }
 
-.staffingSolution {
-    height: 100vh;
-  }
-
   .staffingSolutionContent {
     width: 100%;
 }
@@ -64,15 +60,12 @@
 }
 
 @media screen and (max-width:700px) {
-    .staffingSolution {
-        height: 100vh;
-      }
 
       .staffingSolution h1 {
         font-size: 2rem;
     }
 
     .staffingSolutionContent {
-        bottom: 10%;
+        bottom: 20%;
     }
 }

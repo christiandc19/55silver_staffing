@@ -91,6 +91,32 @@
     display: block;
   }
 
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+
   @media screen and (max-width: 940px) {
     .navbar {
       flex-direction: column;
@@ -101,6 +127,21 @@
       justify-content: space-between;
     }
   
+    .hover-underline-animation::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      top: 50px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffffff;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+
     .navbar .mobile-icon {
       display: block;
       position: absolute;
@@ -114,8 +155,8 @@
     .navbar .nav-menu {
       position: absolute;
       flex-direction: column;
-      width: 100%;
-      height: 100vh;
+      width: 50%;
+      height: 91dvh;
       top: 0;
       left:-100%;
       justify-content: center;
@@ -153,5 +194,10 @@
     .navbar .dropdown-menu {
       width: 90%;
     }
+
+    .navbar .nav-menu {
+      width: 70%;
+    }
+
   }
   

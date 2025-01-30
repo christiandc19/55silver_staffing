@@ -33,12 +33,12 @@ const Navbar = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
-        <li className="nav-item">
+        <li className="nav-item hover-underline-animation">
           <Link to="/" className="nav-links" onClick={closeMenu}>
             Home
           </Link>
         </li>
-        <li className="nav-item">
+        <li className="nav-item hover-underline-animation">
           <Link to="/job-search" className="nav-links" onClick={closeMenu}>
             Search Jobs
           </Link>
@@ -68,20 +68,20 @@ const Navbar = () => {
         </li>
 
 
-        <li className="nav-item">
+        <li className="nav-item hover-underline-animation">
           <Link to="/staffing-solutions" className="nav-links" onClick={closeMenu}>
           Staffing Solutions
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li className="nav-item hover-underline-animation">
           <Link to="/about-us" className="nav-links" onClick={closeMenu}>
             About Us
           </Link>
         </li>
 
 
-        <li className="nav-item">
+        <li className="nav-item hover-underline-animation">
           <Link to="/contact-us" className="nav-links" onClick={closeMenu}>
             Contact
           </Link>

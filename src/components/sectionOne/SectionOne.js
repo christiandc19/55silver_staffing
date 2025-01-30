@@ -50,7 +50,17 @@ const HeroPage = () => {
       <h2>Healthcare Staffing</h2>
       <h3>Where Healthcare Professionals and Opportunities Meet</h3>
       <hr/>
-      <p>At 55 Silver Healthcare Staffing, we specialize in connecting healthcare facilities with highly qualified professionals, ensuring optimal patient care and operational efficiency. Our comprehensive staffing solutions cover a wide range of medical and allied health disciplines, tailored to meet the unique needs of each client.</p>
+      <p>At 55 Silver Healthcare Staffing, our mission is to bridge the gap between healthcare facilities and top-tier professionals. We are committed to providing exceptional staffing solutions that enhance patient care and operational efficiency. By focusing on quality, integrity, and personalized service, we strive to build lasting partnerships that foster growth and success in the healthcare industry.  
+        
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <Link to='/nathan-young'>
+                  <span> Nathan Young, </span>
+                </Link>
+              </LinkRoll>
+
+      
+      
+      with his rich background in healthcare, significantly contributes to our mission of excellence in healthcare staffing.</p>
       <div className='heroIcons'>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to='/job-search'>
