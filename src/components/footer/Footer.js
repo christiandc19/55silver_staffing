@@ -16,7 +16,12 @@ const Footer = () => {
           <div className="top">
             <div className="logo-footer">
               <div className="footer-logo">
-                <img src={logo} alt="55 Silver Logo" loading="lazy"/>
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to='/'>
+                    <img src={logo} alt="55 Silver Logo" loading="lazy"/>
+                  </Link>
+              </LinkRoll>
+
               </div>
             </div>
             <div>
@@ -40,7 +45,7 @@ const Footer = () => {
                 </LinkRoll>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="contact-us">
+                  <Link to="/contact-us">
                     <p>Contact Us</p>
                   </Link>
                 </LinkRoll>
@@ -84,7 +89,7 @@ const Footer = () => {
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                   <Link to="/job-search">
-                    <p>Job Search</p>
+                    <p>Search Jobs</p>
                   </Link>
                 </LinkRoll>
             </div>

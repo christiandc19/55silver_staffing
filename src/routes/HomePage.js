@@ -6,6 +6,7 @@ import SectionFour from '../components/sectionFour/SectionFour'
 import SectionFive from '../components/sectionFive/SectionFive'
 import Section3 from '../components/section3/Section3'
 import Component3 from '../components/component3/Component3'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
             <Section3 />
             <SectionFour />
             <SectionThree />
+            <ContactForm />
             <Footer />
         </>
     )
